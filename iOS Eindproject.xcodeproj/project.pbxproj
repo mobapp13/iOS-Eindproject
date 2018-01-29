@@ -26,6 +26,9 @@
 		843C1B45201F28A000413FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843C1B47201F28A000413FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843C1B51201F364900413FEE /* sea2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sea2.jpg; path = ../../../../Downloads/sea2.jpg; sourceTree = "<group>"; };
+		843C1B53201F48A700413FEE /* shrimp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shrimp.jpg; path = "/Users/admin/Library/Autosave Information/iOS Eindproject/iOS Eindproject/shrimp.jpg"; sourceTree = "<absolute>"; };
+		843C1B54201F48A700413FEE /* sea2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sea2.jpg; path = "/Users/admin/Library/Autosave Information/iOS Eindproject/iOS Eindproject/sea2.jpg"; sourceTree = "<absolute>"; };
+		843C1B55201F48A800413FEE /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sea.jpg; path = "/Users/admin/Library/Autosave Information/iOS Eindproject/iOS Eindproject/sea.jpg"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,9 @@
 		843C1B37201F28A000413FEE /* iOS Eindproject */ = {
 			isa = PBXGroup;
 			children = (
+				843C1B55201F48A800413FEE /* sea.jpg */,
+				843C1B54201F48A700413FEE /* sea2.jpg */,
+				843C1B53201F48A700413FEE /* shrimp.jpg */,
 				843C1B38201F28A000413FEE /* AppDelegate.swift */,
 				843C1B3A201F28A000413FEE /* ViewController.swift */,
 				843C1B3C201F28A000413FEE /* Main.storyboard */,
