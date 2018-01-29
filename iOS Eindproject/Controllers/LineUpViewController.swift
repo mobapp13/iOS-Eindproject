@@ -55,6 +55,18 @@ class LineUpViewController: UIViewController, UITableViewDataSource, UITableView
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+        let destination: ArtistDetailViewController = segue.destination as! ArtistDetailViewController
+        
+        let index = tableView.indexPath(for: sender as! UITableViewCell)!
+        
+        destination.artiest = lineUp[index.row]
+
+     
+        
+    }
+
     
     
 
