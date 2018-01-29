@@ -8,12 +8,16 @@
 
 import UIKit
 
-class LineUpViewController: UIViewController {
+class LineUpViewController: UITableViewController {
 
+    var lineUp:[Artist] = [Artist]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var lineUp: [Artist] = [Artist]()
+        lineUp.append(Artist.init(name: "Kenji Minogue", stage: "Mainstage", time: "Vrijdag 07/07 19u - 20u"))
+        
+
 
         // Do any additional setup after loading the view.
     }
@@ -23,15 +27,7 @@ class LineUpViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
+    
 
 }
