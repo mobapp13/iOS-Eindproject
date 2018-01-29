@@ -13,6 +13,8 @@
 		843C1B41201F28A000413FEE /* iOS_Eindproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843C1B3F201F28A000413FEE /* iOS_Eindproject.xcdatamodeld */; };
 		843C1B43201F28A000413FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B42201F28A000413FEE /* Assets.xcassets */; };
 		843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B44201F28A000413FEE /* LaunchScreen.storyboard */; };
+		847D4406201F6DB7003C752A /* vistival.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D4405201F6DB7003C752A /* vistival.png */; };
+		847D4408201F7091003C752A /* vistivalwit.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D4407201F7091003C752A /* vistivalwit.png */; };
 		A42CD852201F49C900EF05D5 /* shrimp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD84F201F49C900EF05D5 /* shrimp.jpg */; };
 		A42CD853201F49C900EF05D5 /* sea2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD850201F49C900EF05D5 /* sea2.jpg */; };
 		A42CD854201F49C900EF05D5 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD851201F49C900EF05D5 /* sea.jpg */; };
@@ -30,6 +32,8 @@
 		843C1B42201F28A000413FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843C1B45201F28A000413FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843C1B47201F28A000413FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847D4405201F6DB7003C752A /* vistival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vistival.png; sourceTree = "<group>"; };
+		847D4407201F7091003C752A /* vistivalwit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vistivalwit.png; sourceTree = "<group>"; };
 		A42CD84F201F49C900EF05D5 /* shrimp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shrimp.jpg; sourceTree = "<group>"; };
 		A42CD850201F49C900EF05D5 /* sea2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea2.jpg; sourceTree = "<group>"; };
 		A42CD851201F49C900EF05D5 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				A42CD84F201F49C900EF05D5 /* shrimp.jpg */,
+				847D4405201F6DB7003C752A /* vistival.png */,
+				847D4407201F7091003C752A /* vistivalwit.png */,
 				A42CD851201F49C900EF05D5 /* sea.jpg */,
 				A42CD850201F49C900EF05D5 /* sea2.jpg */,
 			);
@@ -169,6 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42CD852201F49C900EF05D5 /* shrimp.jpg in Resources */,
+				847D4406201F6DB7003C752A /* vistival.png in Resources */,
+				847D4408201F7091003C752A /* vistivalwit.png in Resources */,
 				A42CD853201F49C900EF05D5 /* sea2.jpg in Resources */,
 				843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */,
 				A42CD85F201F635700EF05D5 /* lineUpTableViewCell.xib in Resources */,
