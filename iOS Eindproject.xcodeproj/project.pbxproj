@@ -18,6 +18,7 @@
 		A42CD854201F49C900EF05D5 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD851201F49C900EF05D5 /* sea.jpg */; };
 		A42CD856201F5BE500EF05D5 /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CD855201F5BE500EF05D5 /* LineUpViewController.swift */; };
 		A42CD85B201F5DF700EF05D5 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CD85A201F5DF700EF05D5 /* Artist.swift */; };
+		A42CD85F201F635700EF05D5 /* lineUpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A42CD85D201F635700EF05D5 /* lineUpTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A42CD851201F49C900EF05D5 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
 		A42CD855201F5BE500EF05D5 /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
 		A42CD85A201F5DF700EF05D5 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		A42CD85D201F635700EF05D5 /* lineUpTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = lineUpTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				843C1B38201F28A000413FEE /* AppDelegate.swift */,
 				843C1B3A201F28A000413FEE /* ViewController.swift */,
 				A42CD85A201F5DF700EF05D5 /* Artist.swift */,
+				A42CD85D201F635700EF05D5 /* lineUpTableViewCell.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				A42CD852201F49C900EF05D5 /* shrimp.jpg in Resources */,
 				A42CD853201F49C900EF05D5 /* sea2.jpg in Resources */,
 				843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */,
+				A42CD85F201F635700EF05D5 /* lineUpTableViewCell.xib in Resources */,
 				A42CD854201F49C900EF05D5 /* sea.jpg in Resources */,
 				843C1B43201F28A000413FEE /* Assets.xcassets in Resources */,
 				843C1B3E201F28A000413FEE /* Main.storyboard in Resources */,
