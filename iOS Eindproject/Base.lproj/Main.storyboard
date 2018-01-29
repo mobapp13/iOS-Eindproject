@@ -1,24 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="q9O-wl-mPj">
+            <objects>
+                <viewController id="12k-Ex-PLq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X9d-SM-hRa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="roc-im-xoI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="wVd-Tx-HtN"/>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="R59-aj-4it"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d1i-Ki-KkL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-636" y="26.53673163418291"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_Eindproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oIh-iA-M8h">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="333"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f0x-SQ-QOY">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="ZJp-P5-bDo" userLabel="Info"/>
+                                    <tabBarItem systemItem="favorites" id="CbS-Co-z7U" userLabel="Home"/>
+                                    <tabBarItem systemItem="favorites" id="Shx-fh-UYP" userLabel="Login"/>
+                                    <tabBarItem systemItem="more" id="HKp-Up-Kmf" userLabel="Kaart"/>
+                                    <tabBarItem systemItem="favorites" id="QGo-ee-EFH" userLabel="Line-up"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oIh-iA-M8h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JAx-Yv-V9y"/>
+                            <constraint firstItem="oIh-iA-M8h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eGK-Fc-5xF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oIh-iA-M8h" secondAttribute="bottom" constant="334" id="ljS-JA-ogg"/>
+                            <constraint firstItem="oIh-iA-M8h" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="yRl-eb-I6I"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="29.23538230884558"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GsF-jF-zEs">
+            <objects>
+                <viewController id="Wbj-Ol-sXe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AqU-Cx-A5T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="OkV-SD-H6I">
+                                <rect key="frame" x="0.0" y="429" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OkV-SD-H6I" id="LaW-OA-25E">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dcY-tX-DRl"/>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="SIw-v0-Xbh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="esv-R4-YaY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-353" y="-647"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="H9F-UB-v7L">
+            <objects>
+                <viewController id="Wwa-sh-cwi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hoe-Gl-rc8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Dfs-IC-R6W">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="w8d-uq-Pv9"/>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="4rK-iq-fDH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xcQ-ED-hDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="410.39999999999998" y="-649.92503748125944"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CVJ-xe-07F">
+            <objects>
+                <viewController id="R5j-6I-Chh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HAP-cX-fUR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shrimp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6kL-uW-mZH">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6kL-uW-mZH" firstAttribute="bottom" secondItem="bV7-NT-DJU" secondAttribute="bottom" id="YxL-8x-Vv5"/>
+                            <constraint firstItem="6kL-uW-mZH" firstAttribute="trailing" secondItem="bV7-NT-DJU" secondAttribute="trailing" id="jAi-T4-Vqy"/>
+                            <constraint firstItem="6kL-uW-mZH" firstAttribute="top" secondItem="HAP-cX-fUR" secondAttribute="top" id="jYO-94-L6E"/>
+                            <constraint firstItem="6kL-uW-mZH" firstAttribute="leading" secondItem="bV7-NT-DJU" secondAttribute="leading" id="v8U-sz-1Fr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bV7-NT-DJU"/>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="9LA-g6-6c9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kjW-fe-TQS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="671.20000000000005" y="27.436281859070466"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sea.jpg" width="2880" height="1800"/>
+        <image name="sea2.jpg" width="1024" height="1024"/>
+        <image name="shrimp.jpg" width="1200" height="723"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4rK-iq-fDH"/>
+    </inferredMetricsTieBreakers>
 </document>
