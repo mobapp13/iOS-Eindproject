@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:sea.jpg">
+      location = "group:/Users/admin/Library/Autosave Information/iOS Eindproject/iOS Eindproject/sea.jpg">
    </FileRef>
    <FileRef
-      location = "group:sea2.jpg">
+      location = "group:/Users/admin/Library/Autosave Information/iOS Eindproject/iOS Eindproject/sea2.jpg">
    </FileRef>
    <FileRef
-      location = "group:shrimp.jpg">
+      location = "group:/Users/admin/Library/Autosave Information/iOS Eindproject/iOS Eindproject/shrimp.jpg">
    </FileRef>
    <FileRef
       location = "self:iOS Eindproject.xcodeproj">
