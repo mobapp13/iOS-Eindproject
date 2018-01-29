@@ -18,12 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="roc-im-xoI">
-                                <rect key="frame" x="-16" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="roc-im-xoI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="roc-im-xoI" firstAttribute="trailing" secondItem="wVd-Tx-HtN" secondAttribute="trailing" id="AyA-fe-CpV"/>
+                            <constraint firstAttribute="bottom" secondItem="roc-im-xoI" secondAttribute="bottom" id="HRA-b5-i8W"/>
+                            <constraint firstItem="roc-im-xoI" firstAttribute="top" secondItem="X9d-SM-hRa" secondAttribute="top" id="PFq-Xz-fVd"/>
+                            <constraint firstItem="roc-im-xoI" firstAttribute="leading" secondItem="wVd-Tx-HtN" secondAttribute="leading" id="UEu-Ci-Pbz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="wVd-Tx-HtN"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="5G6-MP-7nL"/>
@@ -58,12 +63,22 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oIh-iA-M8h">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="284"/>
                             </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welkom op het Vistival !!!" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vmb-8M-zDL">
+                                <rect key="frame" x="87" y="228" width="200" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oIh-iA-M8h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JAx-Yv-V9y"/>
+                            <constraint firstItem="vmb-8M-zDL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="RZ9-5W-YSg"/>
                             <constraint firstItem="oIh-iA-M8h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eGK-Fc-5xF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vmb-8M-zDL" secondAttribute="trailing" constant="88" id="ghp-B9-NpU"/>
+                            <constraint firstItem="vmb-8M-zDL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="208" id="jCG-EQ-fH7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oIh-iA-M8h" secondAttribute="bottom" constant="334" id="ljS-JA-ogg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vmb-8M-zDL" secondAttribute="bottom" constant="360" id="ocA-pM-ksP"/>
                             <constraint firstItem="oIh-iA-M8h" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="yRl-eb-I6I"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -110,9 +125,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="6kL-uW-mZH" firstAttribute="bottom" secondItem="bV7-NT-DJU" secondAttribute="bottom" id="K11-ld-Xdw"/>
+                            <constraint firstItem="6kL-uW-mZH" firstAttribute="leading" secondItem="bV7-NT-DJU" secondAttribute="leading" id="KSA-QK-QOH"/>
+                            <constraint firstItem="6kL-uW-mZH" firstAttribute="trailing" secondItem="bV7-NT-DJU" secondAttribute="trailing" id="WGv-xt-MUh"/>
                             <constraint firstItem="6kL-uW-mZH" firstAttribute="bottom" secondItem="bV7-NT-DJU" secondAttribute="bottom" id="YxL-8x-Vv5"/>
                             <constraint firstItem="6kL-uW-mZH" firstAttribute="trailing" secondItem="bV7-NT-DJU" secondAttribute="trailing" id="jAi-T4-Vqy"/>
                             <constraint firstItem="6kL-uW-mZH" firstAttribute="top" secondItem="HAP-cX-fUR" secondAttribute="top" id="jYO-94-L6E"/>
+                            <constraint firstItem="6kL-uW-mZH" firstAttribute="top" secondItem="HAP-cX-fUR" secondAttribute="top" id="pYe-2j-rWQ"/>
                             <constraint firstItem="6kL-uW-mZH" firstAttribute="leading" secondItem="bV7-NT-DJU" secondAttribute="leading" id="v8U-sz-1Fr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bV7-NT-DJU"/>
@@ -129,6 +148,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="0XN-6s-r6N" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U88-Hm-Ccs">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
