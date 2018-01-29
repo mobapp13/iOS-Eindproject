@@ -171,13 +171,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="y3S-ue-1N6">
-                                <rect key="frame" x="0.0" y="12" width="375" height="655"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="y3S-ue-1N6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YIW-7f-ia5">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YIW-7f-ia5">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="0.60766945422535212" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="TOI-Zf-Ekw">
@@ -195,6 +193,16 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="y3S-ue-1N6" secondAttribute="bottom" id="7Rt-VP-sCi"/>
+                            <constraint firstItem="y3S-ue-1N6" firstAttribute="trailing" secondItem="Wrc-ay-zzq" secondAttribute="trailing" id="8NI-Xs-uSB"/>
+                            <constraint firstItem="YIW-7f-ia5" firstAttribute="trailing" secondItem="Wrc-ay-zzq" secondAttribute="trailing" id="ZYF-6o-bvD"/>
+                            <constraint firstItem="YIW-7f-ia5" firstAttribute="leading" secondItem="Wrc-ay-zzq" secondAttribute="leading" id="eIC-ET-sXJ"/>
+                            <constraint firstItem="y3S-ue-1N6" firstAttribute="top" secondItem="HMq-fU-9bN" secondAttribute="top" id="oPP-Dw-eZv"/>
+                            <constraint firstItem="YIW-7f-ia5" firstAttribute="bottom" secondItem="Wrc-ay-zzq" secondAttribute="bottom" id="sW1-5M-4wV"/>
+                            <constraint firstItem="y3S-ue-1N6" firstAttribute="leading" secondItem="Wrc-ay-zzq" secondAttribute="leading" id="yaJ-WT-2YU"/>
+                            <constraint firstItem="YIW-7f-ia5" firstAttribute="top" secondItem="Wrc-ay-zzq" secondAttribute="top" id="yqV-wg-xwu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Wrc-ay-zzq"/>
                     </view>
                     <navigationItem key="navigationItem" id="f8q-fq-9cj"/>
