@@ -16,6 +16,8 @@
 		A42CD852201F49C900EF05D5 /* shrimp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD84F201F49C900EF05D5 /* shrimp.jpg */; };
 		A42CD853201F49C900EF05D5 /* sea2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD850201F49C900EF05D5 /* sea2.jpg */; };
 		A42CD854201F49C900EF05D5 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD851201F49C900EF05D5 /* sea.jpg */; };
+		A42CD856201F5BE500EF05D5 /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CD855201F5BE500EF05D5 /* LineUpViewController.swift */; };
+		A42CD85B201F5DF700EF05D5 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CD85A201F5DF700EF05D5 /* Artist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A42CD84F201F49C900EF05D5 /* shrimp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shrimp.jpg; sourceTree = "<group>"; };
 		A42CD850201F49C900EF05D5 /* sea2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea2.jpg; sourceTree = "<group>"; };
 		A42CD851201F49C900EF05D5 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
+		A42CD855201F5BE500EF05D5 /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
+		A42CD85A201F5DF700EF05D5 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +66,44 @@
 		843C1B37201F28A000413FEE /* iOS Eindproject */ = {
 			isa = PBXGroup;
 			children = (
-				843C1B38201F28A000413FEE /* AppDelegate.swift */,
-				A42CD851201F49C900EF05D5 /* sea.jpg */,
-				A42CD850201F49C900EF05D5 /* sea2.jpg */,
-				A42CD84F201F49C900EF05D5 /* shrimp.jpg */,
-				843C1B3A201F28A000413FEE /* ViewController.swift */,
-				843C1B3C201F28A000413FEE /* Main.storyboard */,
-				843C1B42201F28A000413FEE /* Assets.xcassets */,
-				843C1B44201F28A000413FEE /* LaunchScreen.storyboard */,
+				A42CD859201F5DA600EF05D5 /* Views */,
+				A42CD858201F5D8700EF05D5 /* Images */,
+				A42CD857201F5D4700EF05D5 /* Controllers */,
 				843C1B47201F28A000413FEE /* Info.plist */,
 				843C1B3F201F28A000413FEE /* iOS_Eindproject.xcdatamodeld */,
 			);
 			path = "iOS Eindproject";
+			sourceTree = "<group>";
+		};
+		A42CD857201F5D4700EF05D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A42CD855201F5BE500EF05D5 /* LineUpViewController.swift */,
+				843C1B38201F28A000413FEE /* AppDelegate.swift */,
+				843C1B3A201F28A000413FEE /* ViewController.swift */,
+				A42CD85A201F5DF700EF05D5 /* Artist.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A42CD858201F5D8700EF05D5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A42CD84F201F49C900EF05D5 /* shrimp.jpg */,
+				A42CD851201F49C900EF05D5 /* sea.jpg */,
+				A42CD850201F49C900EF05D5 /* sea2.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A42CD859201F5DA600EF05D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				843C1B3C201F28A000413FEE /* Main.storyboard */,
+				843C1B44201F28A000413FEE /* LaunchScreen.storyboard */,
+				843C1B42201F28A000413FEE /* Assets.xcassets */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				843C1B41201F28A000413FEE /* iOS_Eindproject.xcdatamodeld in Sources */,
+				A42CD856201F5BE500EF05D5 /* LineUpViewController.swift in Sources */,
 				843C1B3B201F28A000413FEE /* ViewController.swift in Sources */,
+				A42CD85B201F5DF700EF05D5 /* Artist.swift in Sources */,
 				843C1B39201F28A000413FEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
