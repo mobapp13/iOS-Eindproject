@@ -13,6 +13,8 @@
 		843C1B41201F28A000413FEE /* iOS_Eindproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843C1B3F201F28A000413FEE /* iOS_Eindproject.xcdatamodeld */; };
 		843C1B43201F28A000413FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B42201F28A000413FEE /* Assets.xcassets */; };
 		843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B44201F28A000413FEE /* LaunchScreen.storyboard */; };
+		843C1B4E201F2D9F00413FEE /* shrimp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B4D201F2D9F00413FEE /* shrimp.jpg */; };
+		843C1B50201F325D00413FEE /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B4F201F325C00413FEE /* sea.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		843C1B42201F28A000413FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843C1B45201F28A000413FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843C1B47201F28A000413FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843C1B4D201F2D9F00413FEE /* shrimp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shrimp.jpg; path = ../../../../Downloads/shrimp.jpg; sourceTree = "<group>"; };
+		843C1B4F201F325C00413FEE /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sea.jpg; path = ../../../../Downloads/sea.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				843C1B3C201F28A000413FEE /* Main.storyboard */,
 				843C1B42201F28A000413FEE /* Assets.xcassets */,
 				843C1B44201F28A000413FEE /* LaunchScreen.storyboard */,
+				843C1B4F201F325C00413FEE /* sea.jpg */,
+				843C1B4D201F2D9F00413FEE /* shrimp.jpg */,
 				843C1B47201F28A000413FEE /* Info.plist */,
 				843C1B3F201F28A000413FEE /* iOS_Eindproject.xcdatamodeld */,
 			);
@@ -126,7 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843C1B4E201F2D9F00413FEE /* shrimp.jpg in Resources */,
 				843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */,
+				843C1B50201F325D00413FEE /* sea.jpg in Resources */,
 				843C1B43201F28A000413FEE /* Assets.xcassets in Resources */,
 				843C1B3E201F28A000413FEE /* Main.storyboard in Resources */,
 			);
