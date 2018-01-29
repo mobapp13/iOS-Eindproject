@@ -20,6 +20,9 @@
 		A42CD85B201F5DF700EF05D5 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CD85A201F5DF700EF05D5 /* Artist.swift */; };
 		A42CD85F201F635700EF05D5 /* lineUpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A42CD85D201F635700EF05D5 /* lineUpTableViewCell.xib */; };
 		A42CD861201F6DA600EF05D5 /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CD860201F6DA600EF05D5 /* ArtistDetailViewController.swift */; };
+		A42CD865201F7A7E00EF05D5 /* arno.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD862201F7A7D00EF05D5 /* arno.jpeg */; };
+		A42CD866201F7A7E00EF05D5 /* kenji.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD863201F7A7E00EF05D5 /* kenji.jpeg */; };
+		A42CD867201F7A7E00EF05D5 /* millionaire.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD864201F7A7E00EF05D5 /* millionaire.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		A42CD85A201F5DF700EF05D5 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		A42CD85D201F635700EF05D5 /* lineUpTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = lineUpTableViewCell.xib; sourceTree = "<group>"; };
 		A42CD860201F6DA600EF05D5 /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = "<group>"; };
+		A42CD862201F7A7D00EF05D5 /* arno.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arno.jpeg; sourceTree = "<group>"; };
+		A42CD863201F7A7E00EF05D5 /* kenji.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kenji.jpeg; sourceTree = "<group>"; };
+		A42CD864201F7A7E00EF05D5 /* millionaire.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = millionaire.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				A42CD84F201F49C900EF05D5 /* shrimp.jpg */,
+				A42CD862201F7A7D00EF05D5 /* arno.jpeg */,
+				A42CD863201F7A7E00EF05D5 /* kenji.jpeg */,
+				A42CD864201F7A7E00EF05D5 /* millionaire.jpeg */,
 				A42CD851201F49C900EF05D5 /* sea.jpg */,
 				A42CD850201F49C900EF05D5 /* sea2.jpg */,
 			);
@@ -175,7 +184,10 @@
 				A42CD853201F49C900EF05D5 /* sea2.jpg in Resources */,
 				843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */,
 				A42CD85F201F635700EF05D5 /* lineUpTableViewCell.xib in Resources */,
+				A42CD866201F7A7E00EF05D5 /* kenji.jpeg in Resources */,
+				A42CD867201F7A7E00EF05D5 /* millionaire.jpeg in Resources */,
 				A42CD854201F49C900EF05D5 /* sea.jpg in Resources */,
+				A42CD865201F7A7E00EF05D5 /* arno.jpeg in Resources */,
 				843C1B43201F28A000413FEE /* Assets.xcassets in Resources */,
 				843C1B3E201F28A000413FEE /* Main.storyboard in Resources */,
 			);

@@ -20,6 +20,8 @@ class ArtistDetailViewController: UIViewController {
         super.viewDidLoad()
 
         lblText.text = artiest?.name
+        bioText.text = artiest?.bio
+        bioPic.image = UIImage.init(named: artiest!.bioPic)
         
         // Do any additional setup after loading the view.
     }

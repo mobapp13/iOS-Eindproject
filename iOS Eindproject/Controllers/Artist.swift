@@ -13,12 +13,17 @@ class Artist {
     var name: String
     var stage: String
     var time: String
+    var bio: String
+    var bioPic: String
     
-    init (name: String, stage: String, time: String){
+    
+    init (name: String, stage: String, time: String, bio: String, bioPic: String){
         self.name = name;
         self.stage = stage;
         self.time = time;
-        
+        self.bio = bio;
+        self.bioPic = bioPic;
+      
     }
     
 }
