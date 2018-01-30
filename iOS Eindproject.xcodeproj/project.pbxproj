@@ -28,6 +28,10 @@
 		A42CD87620205EE200EF05D5 /* netsky.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD87520205EE100EF05D5 /* netsky.jpeg */; };
 		A42CD87B20206CAA00EF05D5 /* vistivalwit.png in Resources */ = {isa = PBXBuildFile; fileRef = A42CD87920206CAA00EF05D5 /* vistivalwit.png */; };
 		A42CD87D202080CF00EF05D5 /* kenji2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD87C202080CF00EF05D5 /* kenji2.jpeg */; };
+		A43AEC9220208670003A09EF /* guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = A43AEC9120208670003A09EF /* guitar.png */; };
+		A43AEC9620208690003A09EF /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = A43AEC932020868F003A09EF /* home.png */; };
+		A43AEC9720208690003A09EF /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = A43AEC9420208690003A09EF /* map.png */; };
+		A43AEC9820208690003A09EF /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = A43AEC9520208690003A09EF /* history.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,10 @@
 		A42CD87520205EE100EF05D5 /* netsky.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = netsky.jpeg; sourceTree = "<group>"; };
 		A42CD87920206CAA00EF05D5 /* vistivalwit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vistivalwit.png; sourceTree = "<group>"; };
 		A42CD87C202080CF00EF05D5 /* kenji2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kenji2.jpeg; sourceTree = "<group>"; };
+		A43AEC9120208670003A09EF /* guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guitar.png; sourceTree = "<group>"; };
+		A43AEC932020868F003A09EF /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		A43AEC9420208690003A09EF /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		A43AEC9520208690003A09EF /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +121,11 @@
 		A42CD858201F5D8700EF05D5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A43AEC9520208690003A09EF /* history.png */,
+				A43AEC932020868F003A09EF /* home.png */,
+				A43AEC9420208690003A09EF /* map.png */,
+				A43AEC9120208670003A09EF /* guitar.png */,
 				A42CD87C202080CF00EF05D5 /* kenji2.jpeg */,
-				A42CD87820206CAA00EF05D5 /* vistival.png */,
 				A42CD87920206CAA00EF05D5 /* vistivalwit.png */,
 				A42CD84F201F49C900EF05D5 /* shrimp.jpg */,
 				8448548E20207AFD0040F4F0 /* vistival.png */,
@@ -204,15 +215,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43AEC9820208690003A09EF /* history.png in Resources */,
 				A42CD852201F49C900EF05D5 /* shrimp.jpg in Resources */,
 				A42CD853201F49C900EF05D5 /* sea2.jpg in Resources */,
 				843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */,
 				A42CD85F201F635700EF05D5 /* lineUpTableViewCell.xib in Resources */,
+				A43AEC9620208690003A09EF /* home.png in Resources */,
 				A42CD866201F7A7E00EF05D5 /* kenji.jpeg in Resources */,
+				A43AEC9220208670003A09EF /* guitar.png in Resources */,
 				8448548F20207AFE0040F4F0 /* vistival.png in Resources */,
 				A42CD87B20206CAA00EF05D5 /* vistivalwit.png in Resources */,
 				A42CD867201F7A7E00EF05D5 /* millionaire.jpeg in Resources */,
 				A42CD854201F49C900EF05D5 /* sea.jpg in Resources */,
+				A43AEC9720208690003A09EF /* map.png in Resources */,
 				A42CD865201F7A7E00EF05D5 /* arno.jpeg in Resources */,
 				A42CD87D202080CF00EF05D5 /* kenji2.jpeg in Resources */,
 				843C1B43201F28A000413FEE /* Assets.xcassets in Resources */,
