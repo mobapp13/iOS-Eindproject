@@ -337,6 +337,7 @@
     </scenes>
     <resources>
         <image name="sea2.jpg" width="1024" height="1024"/>
+        <image name="shrimp.jpg" width="1200" height="723"/>
         <image name="vistival.png" width="1000" height="1000"/>
     </resources>
 </document>
