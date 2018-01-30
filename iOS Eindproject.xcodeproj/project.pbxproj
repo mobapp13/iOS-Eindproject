@@ -13,6 +13,7 @@
 		843C1B41201F28A000413FEE /* iOS_Eindproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843C1B3F201F28A000413FEE /* iOS_Eindproject.xcdatamodeld */; };
 		843C1B43201F28A000413FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B42201F28A000413FEE /* Assets.xcassets */; };
 		843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B44201F28A000413FEE /* LaunchScreen.storyboard */; };
+		8448548D202068E70040F4F0 /* MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448548C202068E70040F4F0 /* MapPoint.swift */; };
 		847D4406201F6DB7003C752A /* vistival.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D4405201F6DB7003C752A /* vistival.png */; };
 		847D4408201F7091003C752A /* vistivalwit.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D4407201F7091003C752A /* vistivalwit.png */; };
 		A42CD852201F49C900EF05D5 /* shrimp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD84F201F49C900EF05D5 /* shrimp.jpg */; };
@@ -32,6 +33,7 @@
 		843C1B42201F28A000413FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843C1B45201F28A000413FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843C1B47201F28A000413FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8448548C202068E70040F4F0 /* MapPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPoint.swift; sourceTree = "<group>"; };
 		847D4405201F6DB7003C752A /* vistival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vistival.png; sourceTree = "<group>"; };
 		847D4407201F7091003C752A /* vistivalwit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vistivalwit.png; sourceTree = "<group>"; };
 		A42CD84F201F49C900EF05D5 /* shrimp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shrimp.jpg; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				A42CD857201F5D4700EF05D5 /* Controllers */,
 				843C1B47201F28A000413FEE /* Info.plist */,
 				843C1B3F201F28A000413FEE /* iOS_Eindproject.xcdatamodeld */,
+				8448548C202068E70040F4F0 /* MapPoint.swift */,
 			);
 			path = "iOS Eindproject";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				843C1B3B201F28A000413FEE /* ViewController.swift in Sources */,
 				A42CD85B201F5DF700EF05D5 /* Artist.swift in Sources */,
 				843C1B39201F28A000413FEE /* AppDelegate.swift in Sources */,
+				8448548D202068E70040F4F0 /* MapPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
