@@ -26,14 +26,14 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         bigMap.mapType = .hybrid
         bigMap.showsBuildings = true // displays buildings
         
-        let eiffelTowerCoordinates = CLLocationCoordinate2DMake(51.146294287889894, 2.707185745239258)
-        bigMap.region = MKCoordinateRegionMakeWithDistance(eiffelTowerCoordinates, 1000, 100) // sets the visible region of the map
+        let tstrand = CLLocationCoordinate2DMake(51.146294287889894, 2.707185745239258)
+        bigMap.region = MKCoordinateRegionMakeWithDistance(tstrand, 500, 50) // sets the visible region of the map
         
         // create a 3D Camera
         let mapCamera = MKMapCamera()
-        mapCamera.centerCoordinate = eiffelTowerCoordinates
+        mapCamera.centerCoordinate = tstrand
         mapCamera.pitch = 45
-        mapCamera.altitude = 500 // example altitude
+        mapCamera.altitude = 200 // example altitude
         mapCamera.heading = 45
         
         // set the camera property
