@@ -42,7 +42,7 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Qm7-lB-QYo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="een.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Qm7-lB-QYo">
                                 <rect key="frame" x="15" y="96" width="196" height="111"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="111" id="mGU-gR-MBb"/>
@@ -58,7 +58,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Kn2-YA-cFg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twee.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Kn2-YA-cFg">
                                 <rect key="frame" x="15" y="229" width="196" height="111"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="111" id="9Zt-eB-Wbk"/>
@@ -74,7 +74,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="4IQ-jw-7El">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="drie.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="4IQ-jw-7El">
                                 <rect key="frame" x="15" y="363" width="196" height="111"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="111" id="Vl9-ZB-Ffq"/>
@@ -90,7 +90,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="aDz-JD-BBR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vier.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="aDz-JD-BBR">
                                 <rect key="frame" x="15" y="496" width="196" height="111"/>
                             </imageView>
                         </subviews>
@@ -404,16 +404,16 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1.jpeg" width="275" height="183"/>
-        <image name="2.jpeg" width="275" height="183"/>
-        <image name="3.jpeg" width="275" height="183"/>
-        <image name="4.jpeg" width="275" height="183"/>
+        <image name="drie.jpeg" width="275" height="183"/>
+        <image name="een.jpeg" width="275" height="183"/>
         <image name="guitar" width="25" height="25"/>
         <image name="history" width="25" height="25"/>
         <image name="home" width="25" height="25"/>
         <image name="map" width="25" height="25"/>
         <image name="sea.jpg" width="2880" height="1800"/>
         <image name="sea2.jpg" width="1024" height="1024"/>
+        <image name="twee.jpeg" width="275" height="183"/>
+        <image name="vier.jpeg" width="275" height="183"/>
         <image name="vistival.png" width="1000" height="1000"/>
     </resources>
 </document>
