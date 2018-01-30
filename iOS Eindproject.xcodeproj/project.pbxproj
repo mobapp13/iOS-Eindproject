@@ -27,6 +27,7 @@
 		A42CD87620205EE200EF05D5 /* netsky.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD87520205EE100EF05D5 /* netsky.jpeg */; };
 		A42CD87A20206CAA00EF05D5 /* vistival.png in Resources */ = {isa = PBXBuildFile; fileRef = A42CD87820206CAA00EF05D5 /* vistival.png */; };
 		A42CD87B20206CAA00EF05D5 /* vistivalwit.png in Resources */ = {isa = PBXBuildFile; fileRef = A42CD87920206CAA00EF05D5 /* vistivalwit.png */; };
+		A42CD87D202080CF00EF05D5 /* kenji2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD87C202080CF00EF05D5 /* kenji2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		A42CD87520205EE100EF05D5 /* netsky.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = netsky.jpeg; sourceTree = "<group>"; };
 		A42CD87820206CAA00EF05D5 /* vistival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vistival.png; sourceTree = "<group>"; };
 		A42CD87920206CAA00EF05D5 /* vistivalwit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vistivalwit.png; sourceTree = "<group>"; };
+		A42CD87C202080CF00EF05D5 /* kenji2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kenji2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		A42CD858201F5D8700EF05D5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A42CD87C202080CF00EF05D5 /* kenji2.jpeg */,
 				A42CD87820206CAA00EF05D5 /* vistival.png */,
 				A42CD87920206CAA00EF05D5 /* vistivalwit.png */,
 				A42CD84F201F49C900EF05D5 /* shrimp.jpg */,
@@ -210,6 +213,7 @@
 				A42CD867201F7A7E00EF05D5 /* millionaire.jpeg in Resources */,
 				A42CD854201F49C900EF05D5 /* sea.jpg in Resources */,
 				A42CD865201F7A7E00EF05D5 /* arno.jpeg in Resources */,
+				A42CD87D202080CF00EF05D5 /* kenji2.jpeg in Resources */,
 				843C1B43201F28A000413FEE /* Assets.xcassets in Resources */,
 				843C1B3E201F28A000413FEE /* Main.storyboard in Resources */,
 				A42CD87620205EE200EF05D5 /* netsky.jpeg in Resources */,
