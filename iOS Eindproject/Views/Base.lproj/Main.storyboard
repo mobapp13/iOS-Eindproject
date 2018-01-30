@@ -235,7 +235,6 @@
                         <segue destination="4uR-j0-LGH" kind="relationship" relationship="viewControllers" id="766-os-BxY"/>
                         <segue destination="Wwa-sh-cwi" kind="relationship" relationship="viewControllers" id="sC1-Nm-cRk"/>
                         <segue destination="12k-Ex-PLq" kind="relationship" relationship="viewControllers" id="FSG-YM-tQ8"/>
-                        <segue destination="R5j-6I-Chh" kind="relationship" relationship="viewControllers" id="jJX-ub-dgP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BKX-VS-9dP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -338,7 +337,6 @@
     </scenes>
     <resources>
         <image name="sea2.jpg" width="1024" height="1024"/>
-        <image name="shrimp.jpg" width="1200" height="723"/>
         <image name="vistival.png" width="1000" height="1000"/>
     </resources>
 </document>
