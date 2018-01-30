@@ -24,6 +24,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jnZ-Xl-2Ev">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="674"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="UQI-OE-UKB">
                                 <rect key="frame" x="8" y="0.0" width="91" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -38,7 +42,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qm7-lB-QYo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Qm7-lB-QYo">
                                 <rect key="frame" x="15" y="96" width="192" height="111"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="111" id="mGU-gR-MBb"/>
@@ -51,7 +55,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kn2-YA-cFg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Kn2-YA-cFg">
                                 <rect key="frame" x="15" y="229" width="192" height="111"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="111" id="9Zt-eB-Wbk"/>
@@ -64,7 +68,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4IQ-jw-7El">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="4IQ-jw-7El">
                                 <rect key="frame" x="15" y="363" width="192" height="111"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="111" id="Vl9-ZB-Ffq"/>
@@ -77,7 +81,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aDz-JD-BBR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="aDz-JD-BBR">
                                 <rect key="frame" x="15" y="496" width="192" height="111"/>
                             </imageView>
                         </subviews>
@@ -391,6 +395,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1.jpeg" width="275" height="183"/>
+        <image name="2.jpeg" width="275" height="183"/>
+        <image name="3.jpeg" width="275" height="183"/>
+        <image name="4.jpeg" width="275" height="183"/>
         <image name="guitar" width="25" height="25"/>
         <image name="history" width="25" height="25"/>
         <image name="home" width="25" height="25"/>
