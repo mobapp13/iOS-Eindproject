@@ -53,10 +53,10 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         //coordinaten aan maken, op welke plaats komen de pincoordinates
         let ehbCoord = CLLocationCoordinate2DMake(51.135244, 2.732162)
         let ehbCoord2:CLLocationCoordinate2D =
-            CLLocationCoordinate2DMake(51.135250, 2.732110)
-        let ehbCoord3 = CLLocationCoordinate2DMake(51.135248, 2.732120)
-        let ehbCoord4 = CLLocationCoordinate2DMake(51.135251, 2.732130)
-        let ehbCoord5 = CLLocationCoordinate2DMake(51.1352548, 2.732170)
+            CLLocationCoordinate2DMake(51.136550, 2.732110)
+        let ehbCoord3 = CLLocationCoordinate2DMake(51.136348, 2.733120)
+        let ehbCoord4 = CLLocationCoordinate2DMake(51.139251, 2.730530)
+        let ehbCoord5 = CLLocationCoordinate2DMake(51.130548, 2.731970)
         //Pin aan maken via klasse
         let ehbPoint = MapPoint.init(coord: ehbCoord, title: "Vistival", subtitle: "Ontvangst")
         let ehbPoint2 = MapPoint.init(coord: ehbCoord2, title: "Vistival", subtitle: "Podium Garnaalvisser")
