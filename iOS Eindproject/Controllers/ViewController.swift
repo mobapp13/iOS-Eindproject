@@ -55,8 +55,12 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     func createPins(){
         //coordinaten aan maken, op welke plaats komen de pincoordinates
         let ehbCoord = CLLocationCoordinate2DMake(51.146294287889894, 2.707185745239258)
+        let ehbCoord2 = CLLocationCoordinate2DMake(51.14467892424189, 2.703580856323242)
+        let ehbCoord3 = CLLocationCoordinate2DMake(51.15361656072153, 2.728128433227539)
+        let ehbCoord4 = CLLocationCoordinate2DMake(51.15264750308282, 2.7205753326416016)
+        let ehbCoord5 = CLLocationCoordinate2DMake(51.14650966543823, 2.7078723907470703)
         
-        //Pin aan maken via klasse
+        //Pin aan maken via klaehbCoord
         let ehbPoint = MapPoint.init(coord: ehbCoord, title: "Vistival", subtitle: "Ontvangst")
         let ehbPoint2 = MapPoint.init(coord: ehbCoord2, title: "Vistival", subtitle: "Podium Garnaalvisser")
         let ehbPoint3 = MapPoint.init(coord: ehbCoord3, title: "Vistival", subtitle: "Podium Zeezicht")
@@ -114,5 +118,5 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         }
         return nil
     }
-}
+
 
