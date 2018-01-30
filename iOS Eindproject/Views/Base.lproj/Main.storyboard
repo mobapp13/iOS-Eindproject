@@ -250,7 +250,7 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dfs-IC-R6W">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <connections>
-                                    <outlet property="delegate" destination="Wwa-sh-cwi" id="1Gh-jj-2ow"/>
+                                    <outlet property="delegate" destination="Wwa-sh-cwi" id="TTy-L9-zPj"/>
                                 </connections>
                             </mapView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="q72-Nb-DZH">

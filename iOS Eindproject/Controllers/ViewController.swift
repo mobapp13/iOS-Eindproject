@@ -22,23 +22,42 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         super.viewDidLoad()
         
         
+        
+        bigMap.mapType = .hybrid
+        bigMap.showsBuildings = true // displays buildings
+        
+        let eiffelTowerCoordinates = CLLocationCoordinate2DMake(51.146294287889894, 2.707185745239258)
+        bigMap.region = MKCoordinateRegionMakeWithDistance(eiffelTowerCoordinates, 1000, 100) // sets the visible region of the map
+        
+        // create a 3D Camera
+        let mapCamera = MKMapCamera()
+        mapCamera.centerCoordinate = eiffelTowerCoordinates
+        mapCamera.pitch = 45
+        mapCamera.altitude = 500 // example altitude
+        mapCamera.heading = 45
+        
+        // set the camera property
+        bigMap.camera = mapCamera
+ 
+        
+        
         self.locationManager.delegate = self
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.requestWhenInUseAuthorization()
         self.locationManager.startUpdatingLocation()
         checkLocationIsOk()
-        
+        /*
         //aanmaken coördinaten
         let centerCoord:CLLocationCoordinate2D =
-            CLLocationCoordinate2DMake(51.1284823, 2.748015799999962)
+            CLLocationCoordinate2DMake(51.146294287889894, 2.707185745239258)
         //afwijking
-        let centerSpan = MKCoordinateSpanMake(0.25, 0.25)
+        let centerSpan = MKCoordinateSpanMake(0.1, 0.1)
         //aanmaken regio om op kaart weer te geven
         // nodig is coordinaat voor aanmaken middelpunt en span (hoeveel graden weergeven)
         let centerRegion = MKCoordinateRegionMake (centerCoord, centerSpan)
         //regio aan kaart meegeven
         bigMap.region = centerRegion
-        
+        */
         createPins()
         
     }
@@ -77,18 +96,14 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     
     
-    }
+    
     //standaard in mapviewdelegate, bepaalt hoe elke annotatie is opgebouwd
 
-   
-
-    
-    
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         let selectedPin = view.annotation
         print("selected: \(String(describing: selectedPin?.title))")
     }
-    
+
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         
         //van welk type is de annotatie?
@@ -101,7 +116,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             let identifier = "Pin"
             
             if let herbruikbareView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) {
-                
+                herbruikbareView.annotation = myAnnotation
                 return herbruikbareView
             }else{
                 // opmaak bestond nog niet; aanmaken !
@@ -119,4 +134,4 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         return nil
     }
 
-
+}
