@@ -16,7 +16,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--History-->
+        <!--View Controller-->
         <scene sceneID="q9O-wl-mPj">
             <objects>
                 <viewController id="12k-Ex-PLq" sceneMemberID="viewController">
@@ -49,7 +49,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wVd-Tx-HtN"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="History" id="5G6-MP-7nL"/>
+                    <tabBarItem key="tabBarItem" title="" image="history" id="5G6-MP-7nL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d1i-Ki-KkL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -118,7 +118,7 @@
             </objects>
             <point key="canvasLocation" x="-204" y="1255.3223388305848"/>
         </scene>
-        <!--Home-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
@@ -157,13 +157,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="l2G-nz-zna"/>
+                    <tabBarItem key="tabBarItem" title="" image="home" id="l2G-nz-zna"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1783.2" y="-245.12743628185908"/>
         </scene>
-        <!--Map-->
+        <!--View Controller-->
         <scene sceneID="H9F-UB-v7L">
             <objects>
                 <viewController id="Wwa-sh-cwi" customClass="ViewController" customModule="iOS_Eindproject" customModuleProvider="target" sceneMemberID="viewController">
@@ -194,7 +194,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="w8d-uq-Pv9"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="TRt-dK-b6G"/>
+                    <tabBarItem key="tabBarItem" title="" image="map" id="TRt-dK-b6G"/>
                     <connections>
                         <outlet property="bigMap" destination="Dfs-IC-R6W" id="XTV-yp-I8T"/>
                     </connections>
@@ -224,11 +224,11 @@
             </objects>
             <point key="canvasLocation" x="-426" y="-1110"/>
         </scene>
-        <!--Line-up-->
+        <!--Navigation Controller-->
         <scene sceneID="8Pt-1V-IcX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4uR-j0-LGH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Line-up" id="d9W-KE-LQa"/>
+                    <tabBarItem key="tabBarItem" title="" image="guitar" id="d9W-KE-LQa"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ncu-nk-LF0">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -319,6 +319,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="guitar" width="25" height="25"/>
+        <image name="history" width="25" height="25"/>
+        <image name="home" width="25" height="25"/>
+        <image name="map" width="25" height="25"/>
         <image name="sea2.jpg" width="1024" height="1024"/>
         <image name="vistival.png" width="1000" height="1000"/>
     </resources>
