@@ -214,24 +214,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sea.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q6A-fj-WXq">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q6A-fj-WXq">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="YXI-N9-r5h">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="YXI-N9-r5h">
                                 <rect key="frame" x="0.0" y="20" width="375" height="243"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="243" id="NMk-sf-8bK"/>
+                                    <constraint firstAttribute="width" constant="375" id="ydt-V2-pc7"/>
+                                </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iJf-qZ-1vp">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iJf-qZ-1vp">
                                 <rect key="frame" x="36" y="271" width="303" height="279"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Op hét culinaire visfestival Vistival in Nieuwpoort kun je genieten van heerlijk bereide vis uit de Noordzee. Met een wijntje, biertje, fris en muziek. En we zitten bovenop de vis, Nieuwpoort is namelijk in de visafslag. Iedereen is welkom, de entree is gratis! We zien je graag in het eerste weekend van oktober op 6, 7 en 8 !!!</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="YXI-N9-r5h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="03d-bZ-pBq"/>
+                            <constraint firstItem="Q6A-fj-WXq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2CU-8U-CA1"/>
+                            <constraint firstItem="Q6A-fj-WXq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="7la-gv-7Tq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iJf-qZ-1vp" secondAttribute="bottom" constant="68" id="AAS-dK-z5k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iJf-qZ-1vp" secondAttribute="trailing" constant="36" id="F4s-Ay-iS4"/>
+                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="8" id="Geh-CJ-jRk"/>
+                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="Lgs-E0-j4G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iJf-qZ-1vp" secondAttribute="trailing" constant="36" id="Po4-d1-hwQ"/>
+                            <constraint firstItem="YXI-N9-r5h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="R4F-Eb-UV0"/>
+                            <constraint firstItem="YXI-N9-r5h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aVJ-08-tiJ"/>
+                            <constraint firstItem="Q6A-fj-WXq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cXY-p6-RIj"/>
+                            <constraint firstItem="Q6A-fj-WXq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fQV-Ed-tNi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iJf-qZ-1vp" secondAttribute="bottom" constant="68" id="iLq-Rh-ppJ"/>
+                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="8" id="kAn-Te-mQu"/>
+                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="kK4-A1-3IN"/>
+                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="8" id="t8a-7V-8LQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iJf-qZ-1vp" secondAttribute="trailing" constant="36" id="tdY-ke-YLL"/>
                             <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="8" id="wgh-cP-FKE"/>
                             <constraint firstItem="iJf-qZ-1vp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="y97-XM-ORf"/>
