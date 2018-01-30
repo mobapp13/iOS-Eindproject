@@ -20,6 +20,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         self.locationManager.delegate = self
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.requestWhenInUseAuthorization()
@@ -37,6 +39,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         //regio aan kaart meegeven
         bigMap.region = centerRegion
         
+        createPins()
+        
     }
     
     func checkLocationIsOk() {
@@ -50,7 +54,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     func createPins(){
         //coordinaten aan maken, op welke plaats komen de pincoordinates
-        let ehbCoord = CLLocationCoordinate2DMake(50.88528, 4.371558)
+        let ehbCoord = CLLocationCoordinate2DMake(51.146294287889894, 2.707185745239258)
         
         //Pin aan maken via klasse
         let ehbPoint = MapPoint.init(coord: ehbCoord, title: "Vistival", subtitle: "test")
@@ -68,60 +72,42 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     }
     //standaard in mapviewdelegate, bepaalt hoe elke annotatie is opgebouwd
-    func bigMap (_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-    
-    //van welk type is de annotatie?
-    // if let : initialiseert variabele en kijkt meteen na of alles correct is aangemaakt
-    if let myAnnotation = annotation as? MapPoint {
-        
-        
-        //kijken of er al een opmaak was, indien ja hergebruiken, indien nee aanmaken
-        //deque -> verwacht identifier om te weten welke opmaak
-        let identifier = "Pin"
-        
-        if let herbruikbareView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) {
-            
-            return herbruikbareView
-        }else{
-            // opmaak bestond nog niet; aanmaken !
-            let view = MKPinAnnotationView(annotation:myAnnotation, reuseIdentifier: identifier)
-            // nu de view is gemaakt kan alles gefinetuned worden.
-            //view.pinTintColor = UIColor.cyan
-            view.image = UIImage.init(cgImage: #imageLiteral(resourceName: "vistival.png"))
-            view.canShowCallout = true
-            view.animatesDrop = true
-            // indien je een call out (pop up) hebt kan je links en rechts daarbinnen componenten toevoegen
-            let button = UIButton.init(type: .infoLight)
-            view.rightCalloutAccessoryView = button
-            
-            return view
-            }
-        }
-        return nil
-    }
+
    
 
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         let selectedPin = view.annotation
         print("selected: \(String(describing: selectedPin?.title))")
     }
+    
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        if annotation is MKUserLocation{
-            return nil;
-        }else{
-            let pinIdent = "Pin";
-            var pinView: MKPinAnnotationView;
-            if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: pinIdent) as? MKPinAnnotationView {
-                dequeuedView.annotation = annotation;
-                pinView = dequeuedView;
-            }else{
-                pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: pinIdent);
-                
-            }
-            return pinView;
-        }
-    }
-   
         
+        //van welk type is de annotatie?
+        // if let : initialiseert variabele en kijkt meteen na of alles correct is aangemaakt
+        if let myAnnotation = annotation as? MapPoint {
+            
+            
+            //kijken of er al een opmaak was, indien ja hergebruiken, indien nee aanmaken
+            //deque -> verwacht identifier om te weten welke opmaak
+            let identifier = "Pin"
+            
+            if let herbruikbareView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) {
+                
+                return herbruikbareView
+            }else{
+                // opmaak bestond nog niet; aanmaken !
+                let view = MKAnnotationView(annotation:myAnnotation, reuseIdentifier: identifier)
+                // nu de view is gemaakt kan alles gefinetuned worden.
+                view.image = UIImage.init(named: "visPin.png")
+                view.canShowCallout = true
+                // indien je een call out (pop up) hebt kan je links en rechts daarbinnen componenten toevoegen
+                let button = UIButton.init(type: .infoLight)
+                view.rightCalloutAccessoryView = button
+                
+                return view
+            }
+        }
+        return nil
+    }
 }
 
