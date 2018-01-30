@@ -236,13 +236,17 @@
                         <constraints>
                             <constraint firstItem="YXI-N9-r5h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="03d-bZ-pBq"/>
                             <constraint firstItem="Q6A-fj-WXq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2CU-8U-CA1"/>
+                            <constraint firstItem="YXI-N9-r5h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3um-eL-UqS"/>
                             <constraint firstItem="Q6A-fj-WXq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="7la-gv-7Tq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iJf-qZ-1vp" secondAttribute="bottom" constant="68" id="AAS-dK-z5k"/>
+                            <constraint firstItem="YXI-N9-r5h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BXN-LS-aHj"/>
+                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="8" id="Bqf-FY-ZbP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iJf-qZ-1vp" secondAttribute="trailing" constant="36" id="F4s-Ay-iS4"/>
                             <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="8" id="Geh-CJ-jRk"/>
                             <constraint firstItem="iJf-qZ-1vp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="Lgs-E0-j4G"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iJf-qZ-1vp" secondAttribute="trailing" constant="36" id="Po4-d1-hwQ"/>
                             <constraint firstItem="YXI-N9-r5h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="R4F-Eb-UV0"/>
+                            <constraint firstItem="YXI-N9-r5h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XOg-d1-LV1"/>
                             <constraint firstItem="YXI-N9-r5h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aVJ-08-tiJ"/>
                             <constraint firstItem="Q6A-fj-WXq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cXY-p6-RIj"/>
                             <constraint firstItem="Q6A-fj-WXq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fQV-Ed-tNi"/>
