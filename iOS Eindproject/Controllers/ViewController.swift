@@ -20,6 +20,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         self.locationManager.delegate = self
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.requestWhenInUseAuthorization()
@@ -28,7 +30,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         //aanmaken coördinaten
         let centerCoord:CLLocationCoordinate2D =
-            CLLocationCoordinate2DMake(51.135244, 2.732162)
+            CLLocationCoordinate2DMake(51.1284823, 2.748015799999962)
         //afwijking
         let centerSpan = MKCoordinateSpanMake(0.25, 0.25)
         //aanmaken regio om op kaart weer te geven
@@ -38,6 +40,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         bigMap.region = centerRegion
         
         createPins()
+        
     }
     
     func checkLocationIsOk() {
@@ -74,15 +77,10 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     
     
-    
-    
-    
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-        
     }
+    //standaard in mapviewdelegate, bepaalt hoe elke annotatie is opgebouwd
+
+   
 
     
     
@@ -92,23 +90,33 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     }
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        if annotation is MKUserLocation{
-            return nil;
-        }else{
-            let pinIdent = "Pin";
-            var pinView: MKPinAnnotationView;
-            if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: pinIdent) as? MKPinAnnotationView {
-                dequeuedView.annotation = annotation;
-                pinView = dequeuedView;
-            }else{
-                pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: pinIdent);
-                pinView.canShowCallout = true
+        
+        //van welk type is de annotatie?
+        // if let : initialiseert variabele en kijkt meteen na of alles correct is aangemaakt
+        if let myAnnotation = annotation as? MapPoint {
+            
+            
+            //kijken of er al een opmaak was, indien ja hergebruiken, indien nee aanmaken
+            //deque -> verwacht identifier om te weten welke opmaak
+            let identifier = "Pin"
+            
+            if let herbruikbareView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) {
                 
+                return herbruikbareView
+            }else{
+                // opmaak bestond nog niet; aanmaken !
+                let view = MKAnnotationView(annotation:myAnnotation, reuseIdentifier: identifier)
+                // nu de view is gemaakt kan alles gefinetuned worden.
+                view.image = UIImage.init(named: "visPin.png")
+                view.canShowCallout = true
+                // indien je een call out (pop up) hebt kan je links en rechts daarbinnen componenten toevoegen
+                let button = UIButton.init(type: .infoLight)
+                view.rightCalloutAccessoryView = button
+                
+                return view
             }
-            return pinView;
         }
+        return nil
     }
-    
-    
-}
+
 
