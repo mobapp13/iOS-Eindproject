@@ -31,20 +31,13 @@
                                 <rect key="frame" x="284" y="544" width="109" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vistivalwit.png" translatesAutoresizingMaskIntoConstraints="NO" id="w3R-p6-GHD">
-                                <rect key="frame" x="-9" y="-8" width="110" height="114"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="roc-im-xoI" firstAttribute="trailing" secondItem="wVd-Tx-HtN" secondAttribute="trailing" id="AyA-fe-CpV"/>
                             <constraint firstAttribute="bottom" secondItem="roc-im-xoI" secondAttribute="bottom" id="HRA-b5-i8W"/>
                             <constraint firstItem="roc-im-xoI" firstAttribute="top" secondItem="X9d-SM-hRa" secondAttribute="top" id="PFq-Xz-fVd"/>
-                            <constraint firstItem="w3R-p6-GHD" firstAttribute="leading" secondItem="X9d-SM-hRa" secondAttribute="leading" constant="-9" id="SK6-IZ-V4l"/>
                             <constraint firstItem="roc-im-xoI" firstAttribute="leading" secondItem="wVd-Tx-HtN" secondAttribute="leading" id="UEu-Ci-Pbz"/>
-                            <constraint firstItem="wVd-Tx-HtN" firstAttribute="trailing" secondItem="w3R-p6-GHD" secondAttribute="trailing" constant="274" id="cgk-vI-XlA"/>
-                            <constraint firstItem="wVd-Tx-HtN" firstAttribute="bottom" secondItem="w3R-p6-GHD" secondAttribute="bottom" constant="512" id="iVA-LS-erg"/>
-                            <constraint firstItem="w3R-p6-GHD" firstAttribute="top" secondItem="X9d-SM-hRa" secondAttribute="top" constant="-8" id="yBB-ug-83c"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wVd-Tx-HtN"/>
                     </view>
@@ -129,21 +122,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="D4g-Sw-B0u">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="283"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="Y4t-Ft-J8J"/>
-                                    <constraint firstAttribute="height" constant="283" id="xxN-el-xSv"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YXI-N9-r5h">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="D4g-Sw-B0u" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8eo-EG-yJK"/>
                             <constraint firstItem="vmb-8M-zDL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="RZ9-5W-YSg"/>
-                            <constraint firstItem="D4g-Sw-B0u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cnd-Mw-ePQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="D4g-Sw-B0u" secondAttribute="bottom" constant="335" id="dvq-gg-bYU"/>
-                            <constraint firstItem="D4g-Sw-B0u" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="e8R-ca-HWq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vmb-8M-zDL" secondAttribute="trailing" constant="88" id="ghp-B9-NpU"/>
                             <constraint firstItem="vmb-8M-zDL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="208" id="jCG-EQ-fH7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vmb-8M-zDL" secondAttribute="bottom" constant="360" id="ocA-pM-ksP"/>
@@ -170,20 +156,13 @@
                                     <outlet property="delegate" destination="Wwa-sh-cwi" id="1Gh-jj-2ow"/>
                                 </connections>
                             </mapView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="oIh-iA-M8h">
-                                <rect key="frame" x="-16" y="0.0" width="109" height="83"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Dfs-IC-R6W" firstAttribute="top" secondItem="Hoe-Gl-rc8" secondAttribute="top" id="2kQ-HE-hnp"/>
                             <constraint firstAttribute="bottom" secondItem="Dfs-IC-R6W" secondAttribute="bottom" id="5Vc-l0-ybq"/>
-                            <constraint firstItem="w8d-uq-Pv9" firstAttribute="trailing" secondItem="oIh-iA-M8h" secondAttribute="trailing" constant="282" id="GrZ-5I-4MT"/>
                             <constraint firstItem="Dfs-IC-R6W" firstAttribute="trailing" secondItem="w8d-uq-Pv9" secondAttribute="trailing" id="JfQ-aB-eAQ"/>
                             <constraint firstItem="Dfs-IC-R6W" firstAttribute="leading" secondItem="w8d-uq-Pv9" secondAttribute="leading" id="TaT-To-YV5"/>
-                            <constraint firstItem="w8d-uq-Pv9" firstAttribute="bottom" secondItem="oIh-iA-M8h" secondAttribute="bottom" constant="535" id="Vfh-Kh-brd"/>
-                            <constraint firstItem="oIh-iA-M8h" firstAttribute="top" secondItem="Hoe-Gl-rc8" secondAttribute="top" id="bct-vc-GOk"/>
-                            <constraint firstItem="oIh-iA-M8h" firstAttribute="leading" secondItem="Hoe-Gl-rc8" secondAttribute="leading" constant="-16" id="hOd-Bh-oyw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="w8d-uq-Pv9"/>
                     </view>
@@ -206,10 +185,6 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shrimp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6kL-uW-mZH">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vistivalwit.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Oz-5y-VhC">
-                                <rect key="frame" x="-9" y="-8" width="110" height="114"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -351,6 +326,5 @@
         <image name="sea2.jpg" width="1024" height="1024"/>
         <image name="shrimp.jpg" width="1200" height="723"/>
         <image name="vistival.png" width="1000" height="1000"/>
-        <image name="vistivalwit.png" width="1000" height="1000"/>
     </resources>
 </document>
