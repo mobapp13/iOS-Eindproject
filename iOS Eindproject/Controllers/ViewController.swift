@@ -104,7 +104,22 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         let selectedPin = view.annotation
         print("selected: \(String(describing: selectedPin?.title))")
     }
-    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        if annotation is MKUserLocation{
+            return nil;
+        }else{
+            let pinIdent = "Pin";
+            var pinView: MKPinAnnotationView;
+            if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: pinIdent) as? MKPinAnnotationView {
+                dequeuedView.annotation = annotation;
+                pinView = dequeuedView;
+            }else{
+                pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: pinIdent);
+                
+            }
+            return pinView;
+        }
+    }
    
         
 }
