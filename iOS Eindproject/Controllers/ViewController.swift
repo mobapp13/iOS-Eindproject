@@ -13,7 +13,7 @@ import CoreLocation
 class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate
     
 {
-
+    
     @IBOutlet weak var bigMap: MKMapView!
     
     let locationManager = CLLocationManager()
@@ -57,24 +57,29 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         let ehbCoord = CLLocationCoordinate2DMake(51.146294287889894, 2.707185745239258)
         
         //Pin aan maken via klasse
-        let ehbPoint = MapPoint.init(coord: ehbCoord, title: "Vistival", subtitle: "test")
+        let ehbPoint = MapPoint.init(coord: ehbCoord, title: "Vistival", subtitle: "Ontvangst")
+        let ehbPoint2 = MapPoint.init(coord: ehbCoord2, title: "Vistival", subtitle: "Podium Garnaalvisser")
+        let ehbPoint3 = MapPoint.init(coord: ehbCoord3, title: "Vistival", subtitle: "Podium Zeezicht")
+        let ehbPoint4 = MapPoint.init(coord: ehbCoord4, title: "Vistival", subtitle: "Eventhal Proeverij")
+        let ehbPoint5 = MapPoint.init(coord: ehbCoord5, title: "Vistival", subtitle: "Kinderanimatie")
         // pin (annotation toevoegen aan kaart, mapview)
         bigMap.addAnnotation(ehbPoint)
+        bigMap.addAnnotation(ehbPoint2)
+        bigMap.addAnnotation(ehbPoint3)
+        bigMap.addAnnotation(ehbPoint4)
+        bigMap.addAnnotation(ehbPoint5)
+        
     }
     
-   
     
- 
-
-    override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
     
     }
     //standaard in mapviewdelegate, bepaalt hoe elke annotatie is opgebouwd
 
    
 
+    
+    
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         let selectedPin = view.annotation
         print("selected: \(String(describing: selectedPin?.title))")

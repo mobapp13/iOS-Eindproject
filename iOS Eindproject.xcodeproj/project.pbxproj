@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8421571D2020A7340027DE49 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8421571C2020A7340027DE49 /* MapKit.framework */; };
 		843C1B39201F28A000413FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C1B38201F28A000413FEE /* AppDelegate.swift */; };
 		843C1B3B201F28A000413FEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C1B3A201F28A000413FEE /* ViewController.swift */; };
 		843C1B3E201F28A000413FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B3C201F28A000413FEE /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8421571C2020A7340027DE49 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		843C1B35201F28A000413FEE /* iOS Eindproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Eindproject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		843C1B38201F28A000413FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843C1B3A201F28A000413FEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,18 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8421571D2020A7340027DE49 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8421571B2020A7340027DE49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8421571C2020A7340027DE49 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		843C1B2C201F28A000413FEE = {
 			isa = PBXGroup;
 			children = (
 				843C1B37201F28A000413FEE /* iOS Eindproject */,
 				843C1B36201F28A000413FEE /* Products */,
 				A42CD8772020699900EF05D5 /* Recovered References */,
+				8421571B2020A7340027DE49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +127,10 @@
 		A42CD858201F5D8700EF05D5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A43665D72020AB1E0018450E /* 1.jpeg */,
+				A43665D62020AB1E0018450E /* 2.jpeg */,
+				A43665D92020AB1F0018450E /* 3.jpeg */,
+				A43665D82020AB1F0018450E /* 4.jpeg */,
 				A42CD87C202080CF00EF05D5 /* kenji2.jpeg */,
 				A42CD87920206CAA00EF05D5 /* vistivalwit.png */,
 				A42CD84F201F49C900EF05D5 /* shrimp.jpg */,
@@ -180,6 +196,11 @@
 					843C1B34201F28A000413FEE = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -210,13 +231,17 @@
 				A42CD853201F49C900EF05D5 /* sea2.jpg in Resources */,
 				B51500142020ABE3002CB28A /* visPin.png in Resources */,
 				843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */,
+				A43665DD2020AB1F0018450E /* 3.jpeg in Resources */,
 				A42CD85F201F635700EF05D5 /* lineUpTableViewCell.xib in Resources */,
 				A42CD866201F7A7E00EF05D5 /* kenji.jpeg in Resources */,
+				A43665DA2020AB1F0018450E /* 2.jpeg in Resources */,
 				8448548F20207AFE0040F4F0 /* vistival.png in Resources */,
+				A43665DC2020AB1F0018450E /* 4.jpeg in Resources */,
 				A42CD87B20206CAA00EF05D5 /* vistivalwit.png in Resources */,
 				A42CD867201F7A7E00EF05D5 /* millionaire.jpeg in Resources */,
 				A42CD854201F49C900EF05D5 /* sea.jpg in Resources */,
 				A42CD865201F7A7E00EF05D5 /* arno.jpeg in Resources */,
+				A43665DB2020AB1F0018450E /* 1.jpeg in Resources */,
 				A42CD87D202080CF00EF05D5 /* kenji2.jpeg in Resources */,
 				843C1B43201F28A000413FEE /* Assets.xcassets in Resources */,
 				843C1B3E201F28A000413FEE /* Main.storyboard in Resources */,
