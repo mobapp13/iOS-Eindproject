@@ -20,8 +20,8 @@ class LineUpViewController: UIViewController, UITableViewDataSource, UITableView
         
         lineUp.append(Artist.init(name: "Kenji Minogue", stage: "Mainstage", time: "Vrijdag 07/07 19u - 20u", bio: "Kenji Minogue jshdfjksdfhjksdfhkjsdhfskjdfhdkfjhsjkdfhskdjfhskdjhfsjdkfhsdjkhfsdkjfhsdjkfhsdkjfhsjdkfhsdkjfhsdjkfhjsdkfhsdkfhjkhdsjkhsdjkf", bioPic: "kenji.jpeg"))
         lineUp.append(Artist.init(name: "Arno", stage: "Mainstage", time: "Vrijdag 07/07 20u - 22u", bio: "Arno zerfkaelghlkaehgladghkalhakfghlakfghlkafglkadfghlkadfhgkladflgkhadfkghadklfghladfhgklahefglkhag", bioPic: "arno.jpeg"))
-            lineUp.append(Artist.init(name: "Millionaire", stage: "Marquee", time: "Vrijdag 07/07 22u - 00u", bio: "Millionaire sdjfhgsjdkfhgjsdkfhgjksdfhgjkdfhgjkzdfhgkjadfhglasjhvlafhg", bioPic: "millionaire.jpeg"))
-        
+        lineUp.append(Artist.init(name: "Millionaire", stage: "Marquee", time: "Vrijdag 07/07 22u - 00u", bio: "Millionaire sdjfhgsjdkfhgjsdkfhgjksdfhgjkdfhgjkzdfhgkjadfhglasjhvlafhg", bioPic: "millionaire.jpeg"))
+        lineUp.append(Artist.init(name: "Netsky", stage: "Mainstage", time: "Zaterdag 08/07 22u - 00u", bio: "Netsky sdjfhgsjdkfhgjsdkfhgjksdfhgjkdfhgjkzdfhgkjadfhglasjhvlafhg", bioPic: "netsky.jpeg"))
 
 
         // Do any additional setup after loading the view.
