@@ -198,41 +198,6 @@
             </objects>
             <point key="canvasLocation" x="-983.20000000000005" y="-245.12743628185908"/>
         </scene>
-        <!--Item 5-->
-        <scene sceneID="CVJ-xe-07F">
-            <objects>
-                <viewController id="R5j-6I-Chh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="HAP-cX-fUR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shrimp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6kL-uW-mZH">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vistivalwit.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Oz-5y-VhC">
-                                <rect key="frame" x="-9" y="-8" width="110" height="114"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="6kL-uW-mZH" firstAttribute="bottom" secondItem="bV7-NT-DJU" secondAttribute="bottom" id="K11-ld-Xdw"/>
-                            <constraint firstItem="6kL-uW-mZH" firstAttribute="leading" secondItem="bV7-NT-DJU" secondAttribute="leading" id="KSA-QK-QOH"/>
-                            <constraint firstItem="6kL-uW-mZH" firstAttribute="trailing" secondItem="bV7-NT-DJU" secondAttribute="trailing" id="WGv-xt-MUh"/>
-                            <constraint firstItem="6kL-uW-mZH" firstAttribute="bottom" secondItem="bV7-NT-DJU" secondAttribute="bottom" id="YxL-8x-Vv5"/>
-                            <constraint firstItem="6kL-uW-mZH" firstAttribute="trailing" secondItem="bV7-NT-DJU" secondAttribute="trailing" id="jAi-T4-Vqy"/>
-                            <constraint firstItem="6kL-uW-mZH" firstAttribute="top" secondItem="HAP-cX-fUR" secondAttribute="top" id="jYO-94-L6E"/>
-                            <constraint firstItem="6kL-uW-mZH" firstAttribute="top" secondItem="HAP-cX-fUR" secondAttribute="top" id="pYe-2j-rWQ"/>
-                            <constraint firstItem="6kL-uW-mZH" firstAttribute="leading" secondItem="bV7-NT-DJU" secondAttribute="leading" id="v8U-sz-1Fr"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="bV7-NT-DJU"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 5" id="jPe-ho-NWs"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kjW-fe-TQS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1300" y="-246"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Wdg-2T-Jx8">
             <objects>
@@ -248,7 +213,6 @@
                         <segue destination="4uR-j0-LGH" kind="relationship" relationship="viewControllers" id="766-os-BxY"/>
                         <segue destination="Wwa-sh-cwi" kind="relationship" relationship="viewControllers" id="sC1-Nm-cRk"/>
                         <segue destination="12k-Ex-PLq" kind="relationship" relationship="viewControllers" id="FSG-YM-tQ8"/>
-                        <segue destination="R5j-6I-Chh" kind="relationship" relationship="viewControllers" id="jJX-ub-dgP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BKX-VS-9dP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -351,7 +315,6 @@
     </scenes>
     <resources>
         <image name="sea2.jpg" width="1024" height="1024"/>
-        <image name="shrimp.jpg" width="1200" height="723"/>
         <image name="vistival.png" width="1000" height="1000"/>
         <image name="vistivalwit.png" width="1000" height="1000"/>
     </resources>
