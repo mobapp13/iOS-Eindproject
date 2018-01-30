@@ -22,3 +22,7 @@ class MapPoint: NSObject , MKAnnotation{
     }
     
 }
+
+
+
+

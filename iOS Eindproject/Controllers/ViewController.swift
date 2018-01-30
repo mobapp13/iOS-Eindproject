@@ -102,7 +102,11 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
 
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         let selectedPin = view.annotation
-        print("selected: \(selectedPin?.title)")
+        print("selected: \(String(describing: selectedPin?.title))")
+    }
+    
+   
+        
     }
 
 
