@@ -115,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="-204" y="1255.3223388305848"/>
         </scene>
-        <!--Item-->
+        <!--Item1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_Eindproject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,22 +150,25 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="l2G-nz-zna"/>
+                    <tabBarItem key="tabBarItem" title="Item1" id="l2G-nz-zna"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1783.2" y="-245.12743628185908"/>
         </scene>
-        <!--Item-->
+        <!--Item2-->
         <scene sceneID="H9F-UB-v7L">
             <objects>
-                <viewController id="Wwa-sh-cwi" sceneMemberID="viewController">
+                <viewController id="Wwa-sh-cwi" customClass="ViewController" customModule="iOS_Eindproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hoe-Gl-rc8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Dfs-IC-R6W">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dfs-IC-R6W">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Wwa-sh-cwi" id="1Gh-jj-2ow"/>
+                                </connections>
                             </mapView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="oIh-iA-M8h">
                                 <rect key="frame" x="-16" y="0.0" width="109" height="83"/>
@@ -184,7 +187,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="w8d-uq-Pv9"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="TRt-dK-b6G"/>
+                    <tabBarItem key="tabBarItem" title="Item2" id="TRt-dK-b6G"/>
+                    <connections>
+                        <outlet property="bigMap" destination="Dfs-IC-R6W" id="XTV-yp-I8T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xcQ-ED-hDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

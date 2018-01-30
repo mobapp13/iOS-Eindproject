@@ -13,6 +13,7 @@
 		843C1B41201F28A000413FEE /* iOS_Eindproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843C1B3F201F28A000413FEE /* iOS_Eindproject.xcdatamodeld */; };
 		843C1B43201F28A000413FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B42201F28A000413FEE /* Assets.xcassets */; };
 		843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B44201F28A000413FEE /* LaunchScreen.storyboard */; };
+		8448548D202068E70040F4F0 /* MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448548C202068E70040F4F0 /* MapPoint.swift */; };
 		A42CD852201F49C900EF05D5 /* shrimp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD84F201F49C900EF05D5 /* shrimp.jpg */; };
 		A42CD853201F49C900EF05D5 /* sea2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD850201F49C900EF05D5 /* sea2.jpg */; };
 		A42CD854201F49C900EF05D5 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD851201F49C900EF05D5 /* sea.jpg */; };
@@ -24,6 +25,8 @@
 		A42CD866201F7A7E00EF05D5 /* kenji.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD863201F7A7E00EF05D5 /* kenji.jpeg */; };
 		A42CD867201F7A7E00EF05D5 /* millionaire.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD864201F7A7E00EF05D5 /* millionaire.jpeg */; };
 		A42CD87620205EE200EF05D5 /* netsky.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD87520205EE100EF05D5 /* netsky.jpeg */; };
+		A42CD87A20206CAA00EF05D5 /* vistival.png in Resources */ = {isa = PBXBuildFile; fileRef = A42CD87820206CAA00EF05D5 /* vistival.png */; };
+		A42CD87B20206CAA00EF05D5 /* vistivalwit.png in Resources */ = {isa = PBXBuildFile; fileRef = A42CD87920206CAA00EF05D5 /* vistivalwit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,7 @@
 		843C1B42201F28A000413FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843C1B45201F28A000413FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843C1B47201F28A000413FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8448548C202068E70040F4F0 /* MapPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPoint.swift; sourceTree = "<group>"; };
 		A42CD84F201F49C900EF05D5 /* shrimp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shrimp.jpg; sourceTree = "<group>"; };
 		A42CD850201F49C900EF05D5 /* sea2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea2.jpg; sourceTree = "<group>"; };
 		A42CD851201F49C900EF05D5 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
@@ -46,6 +50,8 @@
 		A42CD863201F7A7E00EF05D5 /* kenji.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kenji.jpeg; sourceTree = "<group>"; };
 		A42CD864201F7A7E00EF05D5 /* millionaire.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = millionaire.jpeg; sourceTree = "<group>"; };
 		A42CD87520205EE100EF05D5 /* netsky.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = netsky.jpeg; sourceTree = "<group>"; };
+		A42CD87820206CAA00EF05D5 /* vistival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vistival.png; sourceTree = "<group>"; };
+		A42CD87920206CAA00EF05D5 /* vistivalwit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vistivalwit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,8 @@
 		A42CD858201F5D8700EF05D5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A42CD87820206CAA00EF05D5 /* vistival.png */,
+				A42CD87920206CAA00EF05D5 /* vistivalwit.png */,
 				A42CD84F201F49C900EF05D5 /* shrimp.jpg */,
 				A42CD87520205EE100EF05D5 /* netsky.jpeg */,
 				A42CD862201F7A7D00EF05D5 /* arno.jpeg */,
@@ -193,10 +201,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42CD852201F49C900EF05D5 /* shrimp.jpg in Resources */,
+				A42CD87A20206CAA00EF05D5 /* vistival.png in Resources */,
 				A42CD853201F49C900EF05D5 /* sea2.jpg in Resources */,
 				843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */,
 				A42CD85F201F635700EF05D5 /* lineUpTableViewCell.xib in Resources */,
 				A42CD866201F7A7E00EF05D5 /* kenji.jpeg in Resources */,
+				A42CD87B20206CAA00EF05D5 /* vistivalwit.png in Resources */,
 				A42CD867201F7A7E00EF05D5 /* millionaire.jpeg in Resources */,
 				A42CD854201F49C900EF05D5 /* sea.jpg in Resources */,
 				A42CD865201F7A7E00EF05D5 /* arno.jpeg in Resources */,
@@ -219,6 +229,7 @@
 				A42CD85B201F5DF700EF05D5 /* Artist.swift in Sources */,
 				843C1B39201F28A000413FEE /* AppDelegate.swift in Sources */,
 				A42CD861201F6DA600EF05D5 /* ArtistDetailViewController.swift in Sources */,
+				8448548D202068E70040F4F0 /* MapPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

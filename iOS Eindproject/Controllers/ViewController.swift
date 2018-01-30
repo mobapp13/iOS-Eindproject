@@ -13,6 +13,7 @@ import CoreLocation
 class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate
     
 {
+
     @IBOutlet weak var bigMap: MKMapView!
     
     let locationManager = CLLocationManager()
@@ -23,7 +24,6 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.requestWhenInUseAuthorization()
         self.locationManager.startUpdatingLocation()
-        self.bigMap.showsUserLocation = true
         checkLocationIsOk()
         
         //aanmaken coördinaten
@@ -42,7 +42,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     func checkLocationIsOk() {
         //nakijken of de gebruiker de app al toestemming heeft gegeven om de locatie te gebruiken, indien ja update ik de locatie, indien nee, vraag ik toestemming
         if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
-            bigMap.showsUserLocation = true;
+            bigMap.showsUserLocation = true
         } else {
             locationManager.requestWhenInUseAuthorization()
         }
