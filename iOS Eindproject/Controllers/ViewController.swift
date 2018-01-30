@@ -28,7 +28,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         //aanmaken coördinaten
         let centerCoord:CLLocationCoordinate2D =
-            CLLocationCoordinate2DMake(50.88528, 4.371558)
+            CLLocationCoordinate2DMake(51.1284823, 2.748015799999962)
         //afwijking
         let centerSpan = MKCoordinateSpanMake(0.25, 0.25)
         //aanmaken regio om op kaart weer te geven
@@ -86,7 +86,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             // opmaak bestond nog niet; aanmaken !
             let view = MKPinAnnotationView(annotation:myAnnotation, reuseIdentifier: identifier)
             // nu de view is gemaakt kan alles gefinetuned worden.
-            view.pinTintColor = UIColor.cyan
+            //view.pinTintColor = UIColor.cyan
+            view.image = UIImage.init(cgImage: #imageLiteral(resourceName: "vistival.png"))
             view.canShowCallout = true
             view.animatesDrop = true
             // indien je een call out (pop up) hebt kan je links en rechts daarbinnen componenten toevoegen
