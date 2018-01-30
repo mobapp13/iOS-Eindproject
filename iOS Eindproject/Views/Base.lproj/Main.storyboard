@@ -223,7 +223,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iJf-qZ-1vp">
-                                <rect key="frame" x="35" y="271" width="303" height="279"/>
+                                <rect key="frame" x="36" y="349" width="303" height="225"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Op hét culinaire visfestival Vistival in Nieuwpoort kun je genieten van heerlijk bereide vis uit de Noordzee. Met een wijntje, biertje, fris en muziek. En we zitten bovenop de vis, Nieuwpoort is namelijk in de visafslag. Iedereen is welkom, de entree is gratis! We zien je graag in het eerste weekend van oktober op 6, 7 en 8 !!!</string>
