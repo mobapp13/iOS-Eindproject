@@ -188,7 +188,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="580" y="500"/>
+            <point key="canvasLocation" x="919" y="500"/>
         </scene>
         <!--Artist Detail View Controller-->
         <scene sceneID="hrc-NH-DEB">
@@ -254,7 +254,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fnv-P7-8IK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-204" y="1255.3223388305848"/>
+            <point key="canvasLocation" x="135" y="1254"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -488,7 +488,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5H-1A-lat" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-204" y="500"/>
+            <point key="canvasLocation" x="135" y="500"/>
         </scene>
         <!--Gesture View Controller-->
         <scene sceneID="eAn-gg-mmh">
@@ -535,7 +535,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Plc-a5-11k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="580" y="1255"/>
+            <point key="canvasLocation" x="918" y="1254"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KgT-cY-EqN">
