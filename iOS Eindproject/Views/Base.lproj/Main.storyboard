@@ -350,7 +350,7 @@
                     <navigationItem key="navigationItem" id="qiC-sA-hFf"/>
                     <connections>
                         <outlet property="bigMap" destination="Dfs-IC-R6W" id="XTV-yp-I8T"/>
-                        <segue destination="vnt-Ty-sVW" kind="show" id="MPx-Dw-ivs"/>
+                        <segue destination="vnt-Ty-sVW" kind="show" identifier="visDetails" id="MPx-Dw-ivs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xcQ-ED-hDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -397,10 +397,10 @@
             </objects>
             <point key="canvasLocation" x="135.19999999999999" y="-245.12743628185908"/>
         </scene>
-        <!--View Controller-->
+        <!--Festival Map-->
         <scene sceneID="nZo-54-G26">
             <objects>
-                <viewController id="vnt-Ty-sVW" sceneMemberID="viewController">
+                <viewController title="Festival Map" id="vnt-Ty-sVW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lWN-8W-bmo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
