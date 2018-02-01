@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -260,17 +261,20 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="YXI-N9-r5h">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="YXI-N9-r5h">
                                 <rect key="frame" x="0.0" y="20" width="375" height="243"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YXI-N9-r5h" secondAttribute="height" multiplier="125:81" id="Dqh-Nk-86R"/>
+                                </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iJf-qZ-1vp">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iJf-qZ-1vp">
                                 <rect key="frame" x="36" y="349" width="303" height="225"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Op hét culinaire visfestival Vistival in Nieuwpoort kun je genieten van heerlijk bereide vis uit de Noordzee. Met een wijntje, biertje, fris en muziek. En we zitten bovenop de vis, Nieuwpoort is namelijk in de visafslag. Iedereen is welkom, de entree is gratis! We zien je graag in het eerste weekend van oktober op 6, 7 en 8 !!!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZF-HK-3QF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZF-HK-3QF">
                                 <rect key="frame" x="55" y="271" width="265" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="6-7-8 oktober !!! Visafslag !">
@@ -281,10 +285,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="YXI-N9-r5h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="00A-b0-UMb"/>
                             <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="SZF-HK-3QF" secondAttribute="bottom" constant="38" id="3D3-eL-2EU"/>
                             <constraint firstItem="iJf-qZ-1vp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="Ep0-Zl-7k5"/>
                             <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="86" id="JU5-m7-yn2"/>
+                            <constraint firstItem="YXI-N9-r5h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Krj-zE-Cft"/>
                             <constraint firstItem="SZF-HK-3QF" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="8" id="UGR-pk-JEq"/>
+                            <constraint firstItem="YXI-N9-r5h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yqr-kt-gdc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iJf-qZ-1vp" secondAttribute="trailing" constant="36" id="brx-Wy-FS8"/>
                             <constraint firstItem="SZF-HK-3QF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="bwF-2r-dhJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SZF-HK-3QF" secondAttribute="trailing" constant="55" id="vbg-wL-BmM"/>
@@ -382,7 +389,7 @@
             </objects>
             <point key="canvasLocation" x="-204" y="-245"/>
         </scene>
-        <!--Line Up View Controller-->
+        <!--Line-Up-->
         <scene sceneID="X9l-MG-8oL">
             <objects>
                 <viewController id="dFa-uw-0nO" customClass="LineUpViewController" customModule="iOS_Eindproject" customModuleProvider="target" sceneMemberID="viewController">
@@ -398,9 +405,13 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="1" alpha="0.60766945422535212" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" red="0.70508824481865284" green="0.70508824481865284" blue="0.70508824481865284" alpha="0.69993397887323938" colorSpace="custom" customColorSpace="displayP3"/>
+                                <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vistival.png" id="Kdd-0y-bEA">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="j99-II-e8Z" detailTextLabel="5Rb-9P-WcZ" style="IBUITableViewCellStyleSubtitle" id="TOI-Zf-Ekw">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="124" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TOI-Zf-Ekw" id="Ey7-F3-fzD">
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
@@ -447,7 +458,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Wrc-ay-zzq"/>
                     </view>
-                    <navigationItem key="navigationItem" id="f8q-fq-9cj"/>
+                    <navigationItem key="navigationItem" title="Line-Up" id="f8q-fq-9cj"/>
                     <connections>
                         <outlet property="tableView" destination="YIW-7f-ia5" id="mVS-yb-Ima"/>
                     </connections>
@@ -464,9 +475,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nOg-zK-4CN">
-                                <rect key="frame" x="67" y="180" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tmm-6U-VfP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEG-VD-VNq">
                                 <rect key="frame" x="313" y="20" width="46" height="30"/>
@@ -476,6 +487,14 @@
                                     <action selector="backBTN" destination="Eyf-mz-XRO" eventType="touchUpInside" id="2rc-Kd-9OM"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nOg-zK-4CN">
+                                <rect key="frame" x="16" y="101" width="343" height="326"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="MVj-zK-4OO">
+                                <rect key="frame" x="16" y="0.0" width="91" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Jeg-FK-GxO"/>
@@ -486,7 +505,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Plc-a5-11k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="582" y="500"/>
+            <point key="canvasLocation" x="581.60000000000002" y="499.70014992503752"/>
         </scene>
     </scenes>
     <resources>
