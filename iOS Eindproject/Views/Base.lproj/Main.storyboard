@@ -238,13 +238,11 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="YXI-N9-r5h">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="vistival.png" translatesAutoresizingMaskIntoConstraints="NO" id="YXI-N9-r5h">
                                 <rect key="frame" x="0.0" y="20" width="375" height="243"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJf-qZ-1vp">
-                                <rect key="frame" x="35" y="271" width="303" height="279"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iJf-qZ-1vp">
+                                <rect key="frame" x="36" y="349" width="303" height="225"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Op hét culinaire visfestival Vistival in Nieuwpoort kun je genieten van heerlijk bereide vis uit de Noordzee. Met een wijntje, biertje, fris en muziek. En we zitten bovenop de vis, Nieuwpoort is namelijk in de visafslag. Iedereen is welkom, de entree is gratis! We zien je graag in het eerste weekend van oktober op 6, 7 en 8 !!!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -252,6 +250,12 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="JR0-5r-jzh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iJf-qZ-1vp" secondAttribute="trailing" constant="36" id="Vbu-Qu-91e"/>
+                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="86" id="eeY-w2-I04"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iJf-qZ-1vp" secondAttribute="bottom" constant="44" id="fFT-a5-5hA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="home" id="l2G-nz-zna"/>
