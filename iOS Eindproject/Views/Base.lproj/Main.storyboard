@@ -312,10 +312,10 @@
             </objects>
             <point key="canvasLocation" x="-1783.2" y="-245.12743628185908"/>
         </scene>
-        <!--View Controller-->
+        <!--Festival Map-->
         <scene sceneID="H9F-UB-v7L">
             <objects>
-                <viewController id="Wwa-sh-cwi" customClass="ViewController" customModule="iOS_Eindproject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Festival Map" id="Wwa-sh-cwi" customClass="ViewController" customModule="iOS_Eindproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hoe-Gl-rc8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -397,22 +397,20 @@
             </objects>
             <point key="canvasLocation" x="135.19999999999999" y="-245.12743628185908"/>
         </scene>
-        <!--Festival Map-->
+        <!--Details-->
         <scene sceneID="nZo-54-G26">
             <objects>
-                <viewController title="Festival Map" id="vnt-Ty-sVW" sceneMemberID="viewController">
+                <viewController title="Details" id="vnt-Ty-sVW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lWN-8W-bmo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IIX-hr-kMI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IIX-hr-kMI">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.71431751939999999" green="0.71431751939999999" blue="0.71431751939999999" alpha="0.1005721831" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14J-Q4-PMY">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14J-Q4-PMY">
                                 <rect key="frame" x="37" y="159" width="300" height="393"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.91543794010000001" colorSpace="custom" customColorSpace="displayP3"/>
@@ -421,6 +419,13 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="IIX-hr-kMI" secondAttribute="trailing" id="3Hm-Xy-Pgi"/>
+                            <constraint firstAttribute="bottom" secondItem="IIX-hr-kMI" secondAttribute="bottom" id="ANa-pa-SoN"/>
+                            <constraint firstItem="IIX-hr-kMI" firstAttribute="leading" secondItem="lWN-8W-bmo" secondAttribute="leading" id="bhT-Gf-hq1"/>
+                            <constraint firstItem="IIX-hr-kMI" firstAttribute="centerX" secondItem="14J-Q4-PMY" secondAttribute="centerX" id="jK9-HU-SyJ"/>
+                            <constraint firstItem="IIX-hr-kMI" firstAttribute="top" secondItem="lWN-8W-bmo" secondAttribute="top" id="wlr-wd-wa1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jZH-Ak-vd4"/>
                     </view>
                 </viewController>
