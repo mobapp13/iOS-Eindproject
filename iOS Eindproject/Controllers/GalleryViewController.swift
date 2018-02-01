@@ -1,5 +1,5 @@
 //
-//  GestureViewController.swift
+//  GalleryViewController.swift
 //  iOS Eindproject
 //
 //  Created by Marnix Steel on 01/02/2018.
@@ -8,16 +8,14 @@
 
 import UIKit
 
-class GestureViewController: UIViewController {
+class GalleryViewController: UIViewController {
 
-    @IBOutlet weak var ivFullScreen: UIImageView!
-    var image:UIImage?
+    var selectedImageview:UIImageView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        ivFullScreen.image = image
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,12 +23,7 @@ class GestureViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    @IBAction func backBTN() {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
-    
+
     /*
     // MARK: - Navigation
 
@@ -41,4 +34,13 @@ class GestureViewController: UIViewController {
     }
     */
 
+    @IBAction func imgTapped(_ sender: UITapGestureRecognizer) {
+        selectedImageview = sender.view as? UIImageView
+        performSegue(withIdentifier: "galleryDetails", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! GestureViewController
+        destination.image = selectedImageview?.image
+    }
 }
