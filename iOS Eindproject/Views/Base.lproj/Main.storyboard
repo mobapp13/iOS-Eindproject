@@ -405,11 +405,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IIX-hr-kMI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RvS-Yi-958">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="tintColor" red="0.71431751939999999" green="0.71431751939999999" blue="0.71431751939999999" alpha="0.1005721831" colorSpace="custom" customColorSpace="displayP3"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14J-Q4-PMY">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14J-Q4-PMY">
                                 <rect key="frame" x="37" y="159" width="300" height="393"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -420,11 +420,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="IIX-hr-kMI" secondAttribute="trailing" id="3Hm-Xy-Pgi"/>
-                            <constraint firstAttribute="bottom" secondItem="IIX-hr-kMI" secondAttribute="bottom" id="ANa-pa-SoN"/>
-                            <constraint firstItem="IIX-hr-kMI" firstAttribute="leading" secondItem="lWN-8W-bmo" secondAttribute="leading" id="bhT-Gf-hq1"/>
-                            <constraint firstItem="IIX-hr-kMI" firstAttribute="centerX" secondItem="14J-Q4-PMY" secondAttribute="centerX" id="jK9-HU-SyJ"/>
-                            <constraint firstItem="IIX-hr-kMI" firstAttribute="top" secondItem="lWN-8W-bmo" secondAttribute="top" id="wlr-wd-wa1"/>
+                            <constraint firstItem="14J-Q4-PMY" firstAttribute="leading" secondItem="jZH-Ak-vd4" secondAttribute="leading" constant="37" id="Ffz-lp-ma4"/>
+                            <constraint firstItem="jZH-Ak-vd4" firstAttribute="bottom" secondItem="14J-Q4-PMY" secondAttribute="bottom" constant="66" id="GKr-yw-aMl"/>
+                            <constraint firstItem="jZH-Ak-vd4" firstAttribute="trailing" secondItem="14J-Q4-PMY" secondAttribute="trailing" constant="38" id="MPW-dB-Fpp"/>
+                            <constraint firstItem="14J-Q4-PMY" firstAttribute="top" secondItem="jZH-Ak-vd4" secondAttribute="top" constant="95" id="oH6-8m-yDf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jZH-Ak-vd4"/>
                     </view>
