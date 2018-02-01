@@ -215,10 +215,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="WNq-y0-vBa" firstAttribute="leading" secondItem="0NW-ih-nfi" secondAttribute="leading" constant="66" id="1wq-jA-g4O"/>
+                            <constraint firstItem="nXH-Du-c8f" firstAttribute="leading" secondItem="0NW-ih-nfi" secondAttribute="leading" constant="36" id="5vk-cj-3PV"/>
+                            <constraint firstItem="0NW-ih-nfi" firstAttribute="trailing" secondItem="nXH-Du-c8f" secondAttribute="trailing" constant="36" id="8TK-6X-Snt"/>
                             <constraint firstItem="0NW-ih-nfi" firstAttribute="trailing" secondItem="nXH-Du-c8f" secondAttribute="trailing" constant="38" id="AV9-bK-9zT"/>
                             <constraint firstItem="NDh-V3-HeF" firstAttribute="top" secondItem="gqa-sX-QSt" secondAttribute="top" id="Ca6-AJ-oGj"/>
                             <constraint firstItem="NDh-V3-HeF" firstAttribute="leading" secondItem="0NW-ih-nfi" secondAttribute="leading" id="EdW-ht-Ner"/>
                             <constraint firstItem="nXH-Du-c8f" firstAttribute="top" secondItem="lZ1-wF-vsr" secondAttribute="bottom" constant="11" id="GfV-R4-4cJ"/>
+                            <constraint firstItem="0NW-ih-nfi" firstAttribute="bottom" secondItem="nXH-Du-c8f" secondAttribute="bottom" constant="10" id="N2B-g8-kly"/>
                             <constraint firstItem="0NW-ih-nfi" firstAttribute="trailing" secondItem="lZ1-wF-vsr" secondAttribute="trailing" constant="81" id="RDh-tC-O7w"/>
                             <constraint firstItem="nXH-Du-c8f" firstAttribute="top" secondItem="lZ1-wF-vsr" secondAttribute="bottom" constant="11" id="TRU-wL-vEG"/>
                             <constraint firstItem="nXH-Du-c8f" firstAttribute="leading" secondItem="0NW-ih-nfi" secondAttribute="leading" constant="37" id="TVV-xv-lQe"/>
@@ -267,13 +270,25 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZF-HK-3QF">
+                                <rect key="frame" x="55" y="271" width="265" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="6-7-8 oktober !!! Visafslag !">
+                                    <color key="titleColor" red="0.26342958370906233" green="0.3112023722016678" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.14510063679999999" green="0.14787079019999999" blue="0.099483111329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="JR0-5r-jzh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iJf-qZ-1vp" secondAttribute="trailing" constant="36" id="Vbu-Qu-91e"/>
-                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="86" id="eeY-w2-I04"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iJf-qZ-1vp" secondAttribute="bottom" constant="44" id="fFT-a5-5hA"/>
+                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="SZF-HK-3QF" secondAttribute="bottom" constant="38" id="3D3-eL-2EU"/>
+                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="Ep0-Zl-7k5"/>
+                            <constraint firstItem="iJf-qZ-1vp" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="86" id="JU5-m7-yn2"/>
+                            <constraint firstItem="SZF-HK-3QF" firstAttribute="top" secondItem="YXI-N9-r5h" secondAttribute="bottom" constant="8" id="UGR-pk-JEq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iJf-qZ-1vp" secondAttribute="trailing" constant="36" id="brx-Wy-FS8"/>
+                            <constraint firstItem="SZF-HK-3QF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="bwF-2r-dhJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SZF-HK-3QF" secondAttribute="trailing" constant="55" id="vbg-wL-BmM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iJf-qZ-1vp" secondAttribute="bottom" constant="44" id="vdD-2q-rLO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
