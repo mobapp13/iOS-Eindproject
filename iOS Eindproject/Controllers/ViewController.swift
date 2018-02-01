@@ -107,7 +107,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
 
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         let selectedPin = view.annotation
-        print("selected: \(String(describing: selectedPin?.title))")
+        
+        self.performSegue(withIdentifier: "visDetails", sender: selectedPin)
     }
 
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
