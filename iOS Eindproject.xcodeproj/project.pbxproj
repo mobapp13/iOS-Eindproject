@@ -33,6 +33,7 @@
 		A436661B2020BC710018450E /* een.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A43666172020BC6A0018450E /* een.jpeg */; };
 		A436661C2020BC710018450E /* twee.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A43666182020BC6D0018450E /* twee.jpeg */; };
 		A436661D2020BC710018450E /* drie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A43666192020BC6E0018450E /* drie.jpeg */; };
+		A46BA59220230352001AECED /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BA59120230352001AECED /* GestureViewController.swift */; };
 		B51500142020ABE3002CB28A /* visPin.png in Resources */ = {isa = PBXBuildFile; fileRef = B51500132020ABE3002CB28A /* visPin.png */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		A43666172020BC6A0018450E /* een.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = een.jpeg; sourceTree = "<group>"; };
 		A43666182020BC6D0018450E /* twee.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twee.jpeg; sourceTree = "<group>"; };
 		A43666192020BC6E0018450E /* drie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drie.jpeg; sourceTree = "<group>"; };
+		A46BA59120230352001AECED /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 		B51500132020ABE3002CB28A /* visPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visPin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 				A42CD85A201F5DF700EF05D5 /* Artist.swift */,
 				A42CD85D201F635700EF05D5 /* lineUpTableViewCell.xib */,
 				A42CD860201F6DA600EF05D5 /* ArtistDetailViewController.swift */,
+				A46BA59120230352001AECED /* GestureViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				A42CD856201F5BE500EF05D5 /* LineUpViewController.swift in Sources */,
 				843C1B3B201F28A000413FEE /* ViewController.swift in Sources */,
 				A42CD85B201F5DF700EF05D5 /* Artist.swift in Sources */,
+				A46BA59220230352001AECED /* GestureViewController.swift in Sources */,
 				843C1B39201F28A000413FEE /* AppDelegate.swift in Sources */,
 				A42CD861201F6DA600EF05D5 /* ArtistDetailViewController.swift in Sources */,
 				8448548D202068E70040F4F0 /* MapPoint.swift in Sources */,
