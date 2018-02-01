@@ -25,11 +25,7 @@ class GestureViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    @IBAction func backBTN() {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
+
     
     /*
     // MARK: - Navigation
