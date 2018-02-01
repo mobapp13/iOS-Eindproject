@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ArtistDetailViewController: UIViewController {
 
@@ -22,6 +23,12 @@ class ArtistDetailViewController: UIViewController {
         lblText.text = artiest?.name
         bioText.text = artiest?.bio
         bioPic.image = UIImage.init(named: artiest!.bioPic)
+        
+//        let playah = AVPlayer.init()
+        
+//        playah.
+//
+//        playah.play()
         
         // Do any additional setup after loading the view.
     }
