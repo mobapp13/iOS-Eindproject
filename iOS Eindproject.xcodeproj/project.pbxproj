@@ -16,6 +16,7 @@
 		843C1B46201F28A000413FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C1B44201F28A000413FEE /* LaunchScreen.storyboard */; };
 		8448548D202068E70040F4F0 /* MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448548C202068E70040F4F0 /* MapPoint.swift */; };
 		8448548F20207AFE0040F4F0 /* vistival.png in Resources */ = {isa = PBXBuildFile; fileRef = 8448548E20207AFD0040F4F0 /* vistival.png */; };
+		8494FD1B2020C3D100EFDBF3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8494FD1A2020C3D000EFDBF3 /* AVFoundation.framework */; };
 		A42CD852201F49C900EF05D5 /* shrimp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD84F201F49C900EF05D5 /* shrimp.jpg */; };
 		A42CD853201F49C900EF05D5 /* sea2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD850201F49C900EF05D5 /* sea2.jpg */; };
 		A42CD854201F49C900EF05D5 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42CD851201F49C900EF05D5 /* sea.jpg */; };
@@ -33,6 +34,8 @@
 		A436661B2020BC710018450E /* een.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A43666172020BC6A0018450E /* een.jpeg */; };
 		A436661C2020BC710018450E /* twee.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A43666182020BC6D0018450E /* twee.jpeg */; };
 		A436661D2020BC710018450E /* drie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A43666192020BC6E0018450E /* drie.jpeg */; };
+		A46BA59220230352001AECED /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BA59120230352001AECED /* GestureViewController.swift */; };
+		A46BA59420230AFE001AECED /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BA59320230AFE001AECED /* GalleryViewController.swift */; };
 		B51500142020ABE3002CB28A /* visPin.png in Resources */ = {isa = PBXBuildFile; fileRef = B51500132020ABE3002CB28A /* visPin.png */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +51,7 @@
 		843C1B47201F28A000413FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8448548C202068E70040F4F0 /* MapPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPoint.swift; sourceTree = "<group>"; };
 		8448548E20207AFD0040F4F0 /* vistival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vistival.png; sourceTree = "<group>"; };
+		8494FD1A2020C3D000EFDBF3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A42CD84F201F49C900EF05D5 /* shrimp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shrimp.jpg; sourceTree = "<group>"; };
 		A42CD850201F49C900EF05D5 /* sea2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea2.jpg; sourceTree = "<group>"; };
 		A42CD851201F49C900EF05D5 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 		A43666172020BC6A0018450E /* een.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = een.jpeg; sourceTree = "<group>"; };
 		A43666182020BC6D0018450E /* twee.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twee.jpeg; sourceTree = "<group>"; };
 		A43666192020BC6E0018450E /* drie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drie.jpeg; sourceTree = "<group>"; };
+		A46BA59120230352001AECED /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
+		A46BA59320230AFE001AECED /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		B51500132020ABE3002CB28A /* visPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visPin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8494FD1B2020C3D100EFDBF3 /* AVFoundation.framework in Frameworks */,
 				8421571D2020A7340027DE49 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +90,7 @@
 		8421571B2020A7340027DE49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8494FD1A2020C3D000EFDBF3 /* AVFoundation.framework */,
 				8421571C2020A7340027DE49 /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -128,6 +136,8 @@
 				A42CD85A201F5DF700EF05D5 /* Artist.swift */,
 				A42CD85D201F635700EF05D5 /* lineUpTableViewCell.xib */,
 				A42CD860201F6DA600EF05D5 /* ArtistDetailViewController.swift */,
+				A46BA59120230352001AECED /* GestureViewController.swift */,
+				A46BA59320230AFE001AECED /* GalleryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -268,7 +278,9 @@
 				A42CD856201F5BE500EF05D5 /* LineUpViewController.swift in Sources */,
 				843C1B3B201F28A000413FEE /* ViewController.swift in Sources */,
 				A42CD85B201F5DF700EF05D5 /* Artist.swift in Sources */,
+				A46BA59220230352001AECED /* GestureViewController.swift in Sources */,
 				843C1B39201F28A000413FEE /* AppDelegate.swift in Sources */,
+				A46BA59420230AFE001AECED /* GalleryViewController.swift in Sources */,
 				A42CD861201F6DA600EF05D5 /* ArtistDetailViewController.swift in Sources */,
 				8448548D202068E70040F4F0 /* MapPoint.swift in Sources */,
 			);
