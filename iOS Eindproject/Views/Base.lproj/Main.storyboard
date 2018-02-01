@@ -350,7 +350,7 @@
                     <navigationItem key="navigationItem" id="qiC-sA-hFf"/>
                     <connections>
                         <outlet property="bigMap" destination="Dfs-IC-R6W" id="XTV-yp-I8T"/>
-                        <segue destination="vnt-Ty-sVW" kind="presentation" identifier="visDetails" modalTransitionStyle="partialCurl" id="nR2-0r-77o"/>
+                        <segue destination="vnt-Ty-sVW" kind="show" id="MPx-Dw-ivs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xcQ-ED-hDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -404,13 +404,29 @@
                     <view key="view" contentMode="scaleToFill" id="lWN-8W-bmo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sea2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IIX-hr-kMI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.71431751939999999" green="0.71431751939999999" blue="0.71431751939999999" alpha="0.1005721831" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14J-Q4-PMY">
+                                <rect key="frame" x="37" y="159" width="300" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.91543794010000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="jZH-Ak-vd4"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5pg-nt-RJh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-986" y="1254"/>
+            <point key="canvasLocation" x="-986.39999999999998" y="1253.5232383808097"/>
         </scene>
         <!--Line-Up-->
         <scene sceneID="X9l-MG-8oL">
